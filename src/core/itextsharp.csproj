@@ -1,19 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net48</TargetFramework>
+		<TargetFramework>netstandard2.0</TargetFramework>
 		<ProductVersion>7.10.3077</ProductVersion>
 		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
 		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 		<AssemblyName>itextsharp</AssemblyName>
+		<!--
 		<DefaultClientScript>JScript</DefaultClientScript>
 		<DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
 		<DefaultTargetSchema>IE50</DefaultTargetSchema>
-		<OutputType>Library</OutputType>
+		-->
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-		<OutputPath>bin\Debug\</OutputPath>
 		<AllowUnsafeBlocks>false</AllowUnsafeBlocks>
 		<BaseAddress>285212672</BaseAddress>
 		<CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
@@ -33,7 +33,6 @@
 		<ErrorReport>prompt</ErrorReport>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-		<OutputPath>bin\Release\</OutputPath>
 		<AllowUnsafeBlocks>false</AllowUnsafeBlocks>
 		<BaseAddress>285212672</BaseAddress>
 		<CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
@@ -52,23 +51,6 @@
 		<DebugType>none</DebugType>
 		<ErrorReport>prompt</ErrorReport>
 	</PropertyGroup>
-	<ItemGroup>
-		<Reference Include="System">
-			<Name>System</Name>
-		</Reference>
-		<Reference Include="System.Data">
-			<Name>System.Data</Name>
-		</Reference>
-		<Reference Include="System.Drawing">
-			<Name>System.Drawing</Name>
-		</Reference>
-		<Reference Include="System.Windows.Forms">
-			<Name>System.Windows.Forms</Name>
-		</Reference>
-		<Reference Include="System.Xml">
-			<Name>System.XML</Name>
-		</Reference>
-	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="AssemblyInfo.cs">
 			<SubType>Code</SubType>
@@ -4222,9 +4204,7 @@
 		<EmbeddedResource Include="iTextSharp\text\pdf\fonts\ZapfDingbats.afm" />
 		<None Include="itextsharp.snk" />
 	</ItemGroup>
-	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-	<PropertyGroup>
-		<PreBuildEvent />
-		<PostBuildEvent />
-	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+	</ItemGroup>	
 </Project>
