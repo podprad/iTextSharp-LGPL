@@ -1,3 +1,11 @@
+This is a forked repo. The original README content is saved below.
+
+Changes in this fork:
+
+4.2.0 - Retargeted iTextSharp to .netstandard2.0. Disabled singing.
+
+Original README content:
+
 iTextSharp (LGPL / MPL) 4.1.6
 =============================
 
