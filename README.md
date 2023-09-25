@@ -8,6 +8,8 @@ Changes in this fork:
 
 4.2.2 - Renamed to textsharp4
 
+4.2.3 - Renamed documentation file name
+
 Original README content:
 
 iTextSharp (LGPL / MPL) 4.1.6

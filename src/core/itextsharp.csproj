@@ -19,7 +19,7 @@
 		<CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
 		<ConfigurationOverrideFile />
 		<DefineConstants>DEBUG;TRACE</DefineConstants>
-		<DocumentationFile>iTextSharp.xml</DocumentationFile>
+		<DocumentationFile>iTextSharp4.xml</DocumentationFile>
 		<DebugSymbols>true</DebugSymbols>
 		<FileAlignment>4096</FileAlignment>
 		<NoStdLib>false</NoStdLib>
@@ -38,7 +38,7 @@
 		<CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
 		<ConfigurationOverrideFile />
 		<DefineConstants>TRACE</DefineConstants>
-		<DocumentationFile>iTextSharp.xml</DocumentationFile>
+		<DocumentationFile>iTextSharp4.xml</DocumentationFile>
 		<DebugSymbols>false</DebugSymbols>
 		<FileAlignment>4096</FileAlignment>
 		<NoStdLib>false</NoStdLib>
