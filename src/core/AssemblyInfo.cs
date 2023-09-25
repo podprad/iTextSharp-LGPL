@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
@@ -13,7 +14,8 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyProduct("")]
 [assembly: AssemblyCopyright("Copyright (C) 1999-2009 by Bruno Lowagie and Paulo Soares. All Rights Reserved.")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]        
+[assembly: AssemblyCulture("")]
+[assembly: Description("https://github.com/podprad/iTextSharp-LGPL")]
 
 //
 // Version information for an assembly consists of the following four values:
@@ -26,7 +28,7 @@ using System.Runtime.CompilerServices;
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
 
-[assembly: AssemblyVersion("4.2.0")]
+[assembly: AssemblyVersion("4.2.1")]
 
 //
 // In order to sign your assembly you must specify a key to use. Refer to the 

@@ -4,6 +4,8 @@ Changes in this fork:
 
 4.2.0 - Retargeted iTextSharp to .netstandard2.0. Disabled singing.
 
+4.2.1 - Added assembly description
+
 Original README content:
 
 iTextSharp (LGPL / MPL) 4.1.6
