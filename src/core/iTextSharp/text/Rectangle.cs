@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Text;
 using System.util;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 
 /*
  * $Id: Rectangle.cs,v 1.18 2008/05/13 11:25:12 psoares33 Exp $
@@ -54,14 +54,16 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.pdf;
+
     /// <summary>
     /// A Rectangle is the representation of a geometric figure.
     /// </summary>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.Table"/>
-    /// <seealso cref="T:iTextSharp.text.Cell"/>
-    /// <seealso cref="T:iTextSharp.text.HeaderFooter"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.Table"/>
+    /// <seealso cref="T:iTextSharp4.text.Cell"/>
+    /// <seealso cref="T:iTextSharp4.text.HeaderFooter"/>
     public class Rectangle : Element, IElement {
     
         // static membervariables (concerning the presence of borders)

@@ -7,7 +7,7 @@ using System;
 // Visit the ACME Labs Java page for up-to-date versions of this and other
 // fine Java utilities: http://www.acme.com/java/
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /// A Hashtable that uses ints as the keys.
     // <P>

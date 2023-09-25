@@ -48,7 +48,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
     * Interface for the OCSP Client.

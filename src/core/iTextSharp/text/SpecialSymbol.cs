@@ -50,7 +50,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text
+namespace iTextSharp4.text
 {
     public class SpecialSymbol {
         

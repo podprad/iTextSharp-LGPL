@@ -48,7 +48,7 @@ using System.Text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** Supports text, combo and list fields generating the correct appearances.
     * All the option in the Acrobat GUI are supported in an easy to use API.
     * @author Paulo Soares (psoares@consiste.pt)

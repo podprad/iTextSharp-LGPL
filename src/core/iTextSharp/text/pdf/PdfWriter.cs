@@ -4,12 +4,12 @@ using System.Text;
 using System.Collections;
 using System.util.collections;
 using System.util;
-using iTextSharp.text;
-using iTextSharp.text.pdf.events;
-using iTextSharp.text.pdf.interfaces;
-using iTextSharp.text.pdf.intern;
-using iTextSharp.text.pdf.collection;
-using iTextSharp.text.xml.xmp;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf.events;
+using iTextSharp4.text.pdf.interfaces;
+using iTextSharp4.text.pdf.intern;
+using iTextSharp4.text.pdf.collection;
+using iTextSharp4.text.xml.xmp;
 using Org.BouncyCastle.X509;
 /*
  * $Id: PdfWriter.cs,v 1.48 2008/05/13 11:25:23 psoares33 Exp $
@@ -61,7 +61,13 @@ using Org.BouncyCastle.X509;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.collection;
+    using iTextSharp4.text.pdf.events;
+    using iTextSharp4.text.pdf.interfaces;
+    using iTextSharp4.text.pdf.intern;
+    using iTextSharp4.text.xml.xmp;
+
     /**
     * A <CODE>DocWriter</CODE> class for PDF.
     * <P>
@@ -2659,7 +2665,7 @@ namespace iTextSharp.text.pdf {
         
         /**
         * A group attributes dictionary specifying the attributes
-        * of the page’s page group for use in the transparent
+        * of the pageâ€™s page group for use in the transparent
         * imaging model
         */
         protected PdfDictionary group;

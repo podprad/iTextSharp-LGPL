@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * The contents of this file are subject to the Mozilla Public License Version 1.1
  * (the "License"); you may not use this file except in compliance with the License.
@@ -45,7 +45,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * Implements the pattern.

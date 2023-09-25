@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 
 /*
  * 
@@ -51,7 +51,7 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.draw {
+namespace iTextSharp4.text.pdf.draw {
     /**
     * Interface for an Element that allows you to draw something at the current
     * vertical position. Trivial implementations are LineSeparator and VerticalPositionMark.

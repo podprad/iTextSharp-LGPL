@@ -52,7 +52,7 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml.xmp {
+namespace iTextSharp4.text.xml.xmp {
     public class LangAlt : Properties {
 
         /** Key for the default language. */

@@ -6,6 +6,8 @@ Changes in this fork:
 
 4.2.1 - Added assembly description
 
+4.2.2 - Renamed to textsharp4
+
 Original README content:
 
 iTextSharp (LGPL / MPL) 4.1.6

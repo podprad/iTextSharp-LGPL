@@ -52,7 +52,7 @@ using System.Globalization;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml.simpleparser {
+namespace iTextSharp4.text.xml.simpleparser {
 
     /**
     * This class contains entities that can be used in an entity tag.

@@ -46,7 +46,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
     * The interface common to all layer types.
     *

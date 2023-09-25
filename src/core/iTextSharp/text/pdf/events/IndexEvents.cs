@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Text;
 using System.util;
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * Copyright 2005 by Michael Niedermair.
@@ -50,7 +50,7 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf.events {
+namespace iTextSharp4.text.pdf.events {
 
     /**
     * Class for an index.

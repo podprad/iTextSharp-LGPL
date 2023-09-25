@@ -48,7 +48,7 @@ using System.Text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf
+namespace iTextSharp4.text.pdf
 {
     public abstract class BaseField {
         
@@ -588,9 +588,9 @@ namespace iTextSharp.text.pdf
             }
         }
         
-        /** Sets the maximum length of the field’s text, in characters.
+        /** Sets the maximum length of the fieldâ€™s text, in characters.
         * It is only meaningful for text fields.
-        * @param maxCharacterLength the maximum length of the field’s text, in characters
+        * @param maxCharacterLength the maximum length of the fieldâ€™s text, in characters
         */
         public int MaxCharacterLength {
             set {

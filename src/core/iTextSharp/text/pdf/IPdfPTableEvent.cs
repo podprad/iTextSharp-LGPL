@@ -50,7 +50,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /** An interface that can be used to retrieve the position of cells in <CODE>PdfPTable</CODE>.
      *

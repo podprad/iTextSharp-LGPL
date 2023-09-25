@@ -50,7 +50,7 @@ using System.IO;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** Reads an FDF form and makes the fields available
     * @author Paulo Soares (psoares@consiste.pt)
     */

@@ -2,7 +2,7 @@ using System;
 using System.Text;
 using System.Collections;
 using System.util;
-using iTextSharp.text.factories;
+using iTextSharp4.text.factories;
 
 /*
  * $Id: Section.cs,v 1.17 2008/05/13 11:25:13 psoares33 Exp $
@@ -54,7 +54,7 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
     /// <summary>
     /// A Section is a part of a Document containing
     /// other Sections, Paragraphs, List

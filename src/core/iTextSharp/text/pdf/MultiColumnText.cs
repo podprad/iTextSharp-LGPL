@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * $Id: MultiColumnText.cs,v 1.13 2008/05/13 11:25:18 psoares33 Exp $
  * 
@@ -51,7 +51,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
     * Formats content into one or more columns bounded by a
     * rectangle.  The columns may be simple rectangles or

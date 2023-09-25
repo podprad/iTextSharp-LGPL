@@ -46,7 +46,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
     * Classes implementing this interface can create custom encodings or
     * replace existing ones. It is used in the context of <code>PdfEncoding</code>.

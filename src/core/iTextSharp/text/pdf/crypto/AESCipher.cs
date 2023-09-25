@@ -52,7 +52,7 @@ using Org.BouncyCastle.Crypto.Parameters;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf.crypto {
+namespace iTextSharp4.text.pdf.crypto {
 
 /**
  * Creates an AES Cipher with CBC and padding PKCS5/7.

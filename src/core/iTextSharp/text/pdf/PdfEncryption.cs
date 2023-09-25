@@ -3,7 +3,7 @@ using System.Collections;
 using System.Security.Cryptography;
 using System.Text;
 using System.IO;
-using iTextSharp.text.pdf.crypto;
+using iTextSharp4.text.pdf.crypto;
 using Org.BouncyCastle.X509;
 
 /*
@@ -55,9 +55,10 @@ using Org.BouncyCastle.X509;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.crypto;
 
-/**
+    /**
  *
  * @author  Paulo Soares (psoares@consiste.pt)
  */

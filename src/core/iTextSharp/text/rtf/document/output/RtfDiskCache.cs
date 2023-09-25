@@ -50,7 +50,7 @@ using System.IO;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.document.output {
+namespace iTextSharp4.text.rtf.document.output {
 
     /**
     * The RtfFileCache is a RtfDataCache that uses a temporary file

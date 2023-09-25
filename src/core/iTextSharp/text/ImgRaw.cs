@@ -50,12 +50,12 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
     /// <summary>
     /// Raw Image data that has to be inserted into the document
     /// </summary>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.Image"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.Image"/>
     public class ImgRaw : Image {
 
         public ImgRaw(Image image) : base(image) {}

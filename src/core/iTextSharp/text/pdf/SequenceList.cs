@@ -49,7 +49,7 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
     * This class expands a string into a list of numbers. The main use is to select a
     * range of pages.

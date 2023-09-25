@@ -3,7 +3,7 @@ using System.IO;
 using System.Xml;
 using System.Collections;
 
-namespace iTextSharp.text.xml
+namespace iTextSharp4.text.xml
 {
     /// <summary>
     /// The <CODE>ParserBase</CODE>-class provides XML document parsing.

@@ -4,12 +4,12 @@ using System.util;
 using System.Text;
 using System.Xml;
 
-using iTextSharp.text;
-using iTextSharp.text.pdf;
-using iTextSharp.text.pdf.draw;
-using iTextSharp.text.xml.simpleparser;
-using iTextSharp.text.html;
-using iTextSharp.text.factories;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.pdf.draw;
+using iTextSharp4.text.xml.simpleparser;
+using iTextSharp4.text.html;
+using iTextSharp4.text.factories;
 
 /*
  * $Id: ITextHandler.cs,v 1.21 2008/05/13 11:26:11 psoares33 Exp $
@@ -61,7 +61,12 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml {
+namespace iTextSharp4.text.xml {
+    using iTextSharp4.text.factories;
+    using iTextSharp4.text.html;
+    using iTextSharp4.text.pdf;
+    using iTextSharp4.text.pdf.draw;
+    using iTextSharp4.text.xml.simpleparser;
 
     /// <summary>
     /// The <CODE>iTextHandler</CODE>-class maps several XHTML-tags to iText-objects.

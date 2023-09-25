@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 using System.Collections;
-using iTextSharp.text.pdf.crypto;
+using iTextSharp4.text.pdf.crypto;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.X509;
@@ -52,7 +52,8 @@ using Org.BouncyCastle.Security;
  *
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.crypto;
 
     /**
     * @author Aiken Sam (aikensam@ieee.org)

@@ -53,7 +53,7 @@ using System.Reflection;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
      * <CODE>PdfName</CODE> is an object that can be used as a name in a PDF-file.
      * <P>

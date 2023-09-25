@@ -52,7 +52,7 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
     /// <summary>
     /// A HeaderFooter-object is a Rectangle with text
     /// that can be put above and/or below every page.

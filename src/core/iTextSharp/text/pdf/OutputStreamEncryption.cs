@@ -1,6 +1,6 @@
 using System;
 using System.IO;
-using iTextSharp.text.pdf.crypto;
+using iTextSharp4.text.pdf.crypto;
 /*
  * $Id: OutputStreamEncryption.cs,v 1.3 2007/04/29 13:57:07 psoares33 Exp $
  *
@@ -50,7 +50,9 @@ using iTextSharp.text.pdf.crypto;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.crypto;
+
     public class OutputStreamEncryption : Stream {
     protected Stream outc;
     protected ARCFOUREncryption arcfour;

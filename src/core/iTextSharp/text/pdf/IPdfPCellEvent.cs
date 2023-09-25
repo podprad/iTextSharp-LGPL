@@ -1,6 +1,6 @@
 using System;
 
-namespace iTextSharp.text.pdf
+namespace iTextSharp4.text.pdf
 {
     /// <summary>
     /// Summary description for IPdfPCellEvent.

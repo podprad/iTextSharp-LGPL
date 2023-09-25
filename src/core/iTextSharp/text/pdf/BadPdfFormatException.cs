@@ -50,7 +50,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf
+namespace iTextSharp4.text.pdf
 {
     /**
      * Signals that a bad PDF format has been used to construct a <CODE>PdfObject</CODE>.

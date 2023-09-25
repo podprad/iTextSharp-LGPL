@@ -53,7 +53,7 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
     /// <summary>
     /// This is an Element that contains
     /// some meta information about the document.
@@ -64,8 +64,8 @@ namespace iTextSharp.text {
     /// Meta is reserved for: Subject, Keywords, Author, Title, Producer
     /// and Creationdate information.
     /// </remarks>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.Header"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.Header"/>
     public class Meta : IElement {
     
         // membervariables

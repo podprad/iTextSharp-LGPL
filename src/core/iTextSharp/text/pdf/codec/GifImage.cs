@@ -2,8 +2,8 @@ using System;
 using System.Net;
 using System.IO;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
 /*
  * Copyright 2003 by Paulo Soares.
  *
@@ -51,7 +51,7 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.codec {
+namespace iTextSharp4.text.pdf.codec {
     /** Reads gif images of all types. All the images in a gif are read in the constructors
     * and can be retrieved with other methods.
     * @author Paulo Soares (psoares@consiste.pt)

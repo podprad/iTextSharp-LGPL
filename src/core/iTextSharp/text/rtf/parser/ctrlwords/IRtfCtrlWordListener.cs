@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text.rtf.parser;
+using iTextSharp4.text.rtf.parser;
 /* 
  * $Id: IRtfCtrlWordListener.cs,v 1.2 2008/05/13 11:25:58 psoares33 Exp $
  * 
@@ -49,7 +49,7 @@ using iTextSharp.text.rtf.parser;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.rtf.parser.ctrlwords {
+namespace iTextSharp4.text.rtf.parser.ctrlwords {
 
     /**
     * <code>RtfCtrlWordListener</code> interface for handling events.

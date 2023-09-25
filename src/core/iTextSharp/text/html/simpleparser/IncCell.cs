@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
-using iTextSharp.text.html;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.html;
 /*
  * Copyright 2004 Paulo Soares
  *
@@ -51,7 +51,9 @@ using iTextSharp.text.html;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html.simpleparser {
+namespace iTextSharp4.text.html.simpleparser {
+    using iTextSharp4.text.pdf;
+
     /**
     *
     * @author  psoares

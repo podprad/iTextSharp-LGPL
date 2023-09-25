@@ -57,7 +57,7 @@ using Org.BouncyCastle.Asn1.Ocsp;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
     * OcspClient implementation using BouncyCastle.

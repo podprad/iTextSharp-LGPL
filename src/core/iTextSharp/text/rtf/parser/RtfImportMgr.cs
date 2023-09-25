@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.list;
-using iTextSharp.text.rtf.style;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf.document;
+using iTextSharp4.text.rtf.list;
+using iTextSharp4.text.rtf.style;
 /*
  * $Id: RtfImportMgr.cs,v 1.3 2008/05/16 19:31:07 psoares33 Exp $
  * 
@@ -53,7 +53,10 @@ using iTextSharp.text.rtf.style;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.rtf.parser {
+namespace iTextSharp4.text.rtf.parser {
+    using iTextSharp4.text.rtf.document;
+    using iTextSharp4.text.rtf.list;
+    using iTextSharp4.text.rtf.style;
 
     /**
     * The RtfImportHeader stores the docment header information from

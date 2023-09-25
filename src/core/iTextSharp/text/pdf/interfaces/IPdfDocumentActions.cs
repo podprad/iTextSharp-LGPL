@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 /*
  * $Id: IPdfDocumentActions.cs,v 1.1 2007/02/09 15:34:40 psoares33 Exp $
  *
@@ -49,7 +49,7 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.interfaces {
+namespace iTextSharp4.text.pdf.interfaces {
 
     /**
     * A PDF document can have an open action and other additional actions.

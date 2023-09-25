@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: PdfCell.cs,v 1.10 2008/05/13 11:25:19 psoares33 Exp $
@@ -53,7 +53,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * A <CODE>PdfCell</CODE> is the PDF translation of a <CODE>Cell</CODE>.
@@ -455,15 +455,15 @@ namespace iTextSharp.text.pdf {
             float width = 0f;
             if (useBorderPadding) {
                 switch (side) {
-                    case iTextSharp.text.Rectangle.LEFT_BORDER:
+                    case text.Rectangle.LEFT_BORDER:
                         width = BorderWidthLeft;
                         break;
 
-                    case iTextSharp.text.Rectangle.RIGHT_BORDER:
+                    case text.Rectangle.RIGHT_BORDER:
                         width = BorderWidthRight;
                         break;
 
-                    case iTextSharp.text.Rectangle.TOP_BORDER:
+                    case text.Rectangle.TOP_BORDER:
                         width = BorderWidthTop;
                         break;
 

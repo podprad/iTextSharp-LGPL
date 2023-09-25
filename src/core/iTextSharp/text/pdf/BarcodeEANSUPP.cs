@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * Copyright 2002 by Paulo Soares.
@@ -47,7 +47,7 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** This class takes 2 barcodes, an EAN/UPC and a supplemental
      * and creates a single barcode with both combined in the
      * expected layout. The UPC/EAN should have a positive text

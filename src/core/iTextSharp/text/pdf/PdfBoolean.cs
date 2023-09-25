@@ -50,7 +50,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * <CODE>PdfBoolean</CODE> is the bool object represented by the keywords <VAR>true</VAR> or <VAR>false</VAR>.

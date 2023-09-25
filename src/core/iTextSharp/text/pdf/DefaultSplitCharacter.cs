@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: DefaultSplitCharacter.cs,v 1.1 2008/05/22 22:11:09 psoares33 Exp $
@@ -50,7 +50,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
  * The default class that is used to determine whether or not a character

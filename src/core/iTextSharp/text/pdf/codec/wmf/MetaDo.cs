@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 using System.Net;
-using iTextSharp.text;
+using iTextSharp4.text;
 using System.Collections;
 
 /*
@@ -54,7 +54,7 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.codec.wmf
+namespace iTextSharp4.text.pdf.codec.wmf
 {
     /// <summary>
     /// Summary description for MetaDo.

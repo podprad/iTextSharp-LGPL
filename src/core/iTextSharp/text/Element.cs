@@ -50,30 +50,30 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text 
+namespace iTextSharp4.text 
 {
 
     /// <summary>
     /// Interface for a text element.
     /// </summary>
-    /// <seealso cref="T:iTextSharp.text.Anchor"/>
-    /// <seealso cref="T:iTextSharp.text.Cell"/>
-    /// <seealso cref="T:iTextSharp.text.Chapter"/>
-    /// <seealso cref="T:iTextSharp.text.Chunk"/>
+    /// <seealso cref="T:iTextSharp4.text.Anchor"/>
+    /// <seealso cref="T:iTextSharp4.text.Cell"/>
+    /// <seealso cref="T:iTextSharp4.text.Chapter"/>
+    /// <seealso cref="T:iTextSharp4.text.Chunk"/>
     /// <seealso cref="T:iTextSharp.text.Gif"/>
     /// <seealso cref="T:iTextSharp.text.Graphic"/>
-    /// <seealso cref="T:iTextSharp.text.Header"/>
-    /// <seealso cref="T:iTextSharp.text.Image"/>
-    /// <seealso cref="T:iTextSharp.text.Jpeg"/>
-    /// <seealso cref="T:iTextSharp.text.List"/>
-    /// <seealso cref="T:iTextSharp.text.ListItem"/>
-    /// <seealso cref="T:iTextSharp.text.Meta"/>
-    /// <seealso cref="T:iTextSharp.text.Paragraph"/>
-    /// <seealso cref="T:iTextSharp.text.Phrase"/>
-    /// <seealso cref="T:iTextSharp.text.Rectangle"/>
-    /// <seealso cref="T:iTextSharp.text.Row"/>
-    /// <seealso cref="T:iTextSharp.text.Section"/>
-    /// <seealso cref="T:iTextSharp.text.Table"/>
+    /// <seealso cref="T:iTextSharp4.text.Header"/>
+    /// <seealso cref="T:iTextSharp4.text.Image"/>
+    /// <seealso cref="T:iTextSharp4.text.Jpeg"/>
+    /// <seealso cref="T:iTextSharp4.text.List"/>
+    /// <seealso cref="T:iTextSharp4.text.ListItem"/>
+    /// <seealso cref="T:iTextSharp4.text.Meta"/>
+    /// <seealso cref="T:iTextSharp4.text.Paragraph"/>
+    /// <seealso cref="T:iTextSharp4.text.Phrase"/>
+    /// <seealso cref="T:iTextSharp4.text.Rectangle"/>
+    /// <seealso cref="T:iTextSharp4.text.Row"/>
+    /// <seealso cref="T:iTextSharp4.text.Section"/>
+    /// <seealso cref="T:iTextSharp4.text.Table"/>
     public class Element 
     {
     

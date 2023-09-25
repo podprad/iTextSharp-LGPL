@@ -79,7 +79,7 @@ using System.Globalization;
  * used in iText under the MPL.
  */
 
-namespace iTextSharp.text.xml.simpleparser {
+namespace iTextSharp4.text.xml.simpleparser {
     /**
     * A simple XML and HTML parser.  This parser is, like the SAX parser,
     * an event based parser, but with much less functionality.

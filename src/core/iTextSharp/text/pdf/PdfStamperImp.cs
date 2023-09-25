@@ -3,10 +3,10 @@ using System.IO;
 using System.Collections;
 using System.Text;
 using System.util;
-using iTextSharp.text.pdf.interfaces;
-using iTextSharp.text.pdf.intern;
-using iTextSharp.text.pdf.collection;
-using iTextSharp.text.xml.xmp;
+using iTextSharp4.text.pdf.interfaces;
+using iTextSharp4.text.pdf.intern;
+using iTextSharp4.text.pdf.collection;
+using iTextSharp4.text.xml.xmp;
 /*
  * Copyright 2003 by Paulo Soares.
  *
@@ -54,7 +54,11 @@ using iTextSharp.text.xml.xmp;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.collection;
+    using iTextSharp4.text.pdf.intern;
+    using iTextSharp4.text.xml.xmp;
+
     public class PdfStamperImp : PdfWriter {
         internal Hashtable readers2intrefs = new Hashtable();
         internal Hashtable readers2file = new Hashtable();

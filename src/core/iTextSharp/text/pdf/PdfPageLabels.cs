@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text;
-using iTextSharp.text.factories;
+using iTextSharp4.text;
+using iTextSharp4.text.factories;
 
 /*
  * $Id: PdfPageLabels.cs,v 1.9 2008/05/13 11:25:21 psoares33 Exp $
@@ -54,7 +54,8 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.factories;
 
     /** Page labels are used to identify each
      * page visually on the screen or in print.

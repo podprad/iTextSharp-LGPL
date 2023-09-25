@@ -3,7 +3,7 @@ using System.IO;
 using System.Xml;
 using System.Collections;
 
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: XmlParser.cs,v 1.5 2008/05/13 11:26:12 psoares33 Exp $
@@ -55,7 +55,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml {
+namespace iTextSharp4.text.xml {
 
     /// <summary>
     /// This class can be used to parse an XML file.

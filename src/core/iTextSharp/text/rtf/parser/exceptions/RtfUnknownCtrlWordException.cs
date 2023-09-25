@@ -1,6 +1,6 @@
 using System;
 
-namespace iTextSharp.text.rtf.parser.exceptions {
+namespace iTextSharp4.text.rtf.parser.exceptions {
 
     public class RtfUnknownCtrlWordException : RtfParserException {
 

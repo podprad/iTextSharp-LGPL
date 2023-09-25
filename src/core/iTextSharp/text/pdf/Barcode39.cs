@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * $Id: Barcode39.cs,v 1.6 2007/05/03 19:36:07 psoares33 Exp $
  *
@@ -48,7 +48,7 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** Implements the code 39 and code 39 extended. The default parameters are:
      * <pre>
      *x = 0.8f;

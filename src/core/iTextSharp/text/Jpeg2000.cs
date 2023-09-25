@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Net;
 using System.util;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 /*
  * $Id: Jpeg2000.cs,v 1.5 2008/05/13 11:25:11 psoares33 Exp $
  * 
@@ -53,7 +53,7 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
 
     /**
     * An <CODE>Jpeg2000</CODE> is the representation of a graphic element (JPEG)

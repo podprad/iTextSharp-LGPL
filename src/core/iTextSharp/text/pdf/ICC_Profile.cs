@@ -3,7 +3,7 @@ using System.Text;
 using System.Collections;
 using System.IO;
 
-namespace iTextSharp.text.pdf
+namespace iTextSharp4.text.pdf
 {
     /// <summary>
     /// Summary description for ICC_Profile.

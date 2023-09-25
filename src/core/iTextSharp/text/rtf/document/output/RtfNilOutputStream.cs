@@ -47,7 +47,7 @@ using System.IO;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.document.output {
+namespace iTextSharp4.text.rtf.document.output {
 
     /**
     * The RtfNilOutputStream is a dummy output stream that sends all

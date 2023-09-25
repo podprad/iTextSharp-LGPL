@@ -1,16 +1,16 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
 /*
  * Created on Aug 12, 2004
  *
  * To change the template for this generated file go to
  * Window - Preferences - Java - Code Generation - Code and Comments
  */
-namespace iTextSharp.text.rtf.text {
-
+namespace iTextSharp4.text.rtf.text {
+    using iTextSharp4.text.rtf.document;
 
     /**
     * The RtfNewPage creates a new page. INTERNAL CLASS

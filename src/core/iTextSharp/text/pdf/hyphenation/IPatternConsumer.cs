@@ -16,7 +16,7 @@ using System.Collections;
  * limitations under the License.
  */
 
-namespace iTextSharp.text.pdf.hyphenation {
+namespace iTextSharp4.text.pdf.hyphenation {
     /**
     * This interface is used to connect the XML pattern file parser to
     * the hyphenation tree.

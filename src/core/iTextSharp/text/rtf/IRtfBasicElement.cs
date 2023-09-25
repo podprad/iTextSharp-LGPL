@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text;
+using iTextSharp4.text.rtf.document;
+using iTextSharp4.text;
 /*
  * $Id: IRtfBasicElement.cs,v 1.4 2008/05/13 11:25:42 psoares33 Exp $
  * 
@@ -52,7 +52,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf {
+namespace iTextSharp4.text.rtf {
+    using iTextSharp4.text.rtf.document;
 
     public interface IRtfBasicElement : IRtfElementInterface {
         

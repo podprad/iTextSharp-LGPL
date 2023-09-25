@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * Copyright 2005 Paulo Soares
  *
@@ -47,7 +47,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html.simpleparser {
+namespace iTextSharp4.text.html.simpleparser {
     public interface IALink {
         bool Process(Paragraph current, ChainedProperties cprops);
     }

@@ -1,6 +1,6 @@
 using System;
 using System.IO;
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: InputMeta.cs,v 1.4 2008/05/13 11:25:36 psoares33 Exp $
@@ -52,7 +52,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.codec.wmf {
+namespace iTextSharp4.text.pdf.codec.wmf {
     /// <summary>
     /// Summary description for InputMeta.
     /// </summary>

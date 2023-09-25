@@ -16,7 +16,7 @@ using System.Text;
  * limitations under the License.
  */
 
-namespace iTextSharp.text.pdf.hyphenation {
+namespace iTextSharp4.text.pdf.hyphenation {
     /**
     * This class represents a hyphen. A 'full' hyphen is made of 3 parts:
     * the pre-break text, post-break text and no-break. If no line-break

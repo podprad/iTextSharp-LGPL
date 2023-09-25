@@ -6,7 +6,7 @@ using System.IO;
 using System.Text;
 using System.Collections;
 using System.util;
-using iTextSharp.text.xml.simpleparser;
+using iTextSharp4.text.xml.simpleparser;
 
 /*
  * $Id: BaseFont.cs,v 1.17 2008/05/13 11:25:17 psoares33 Exp $
@@ -58,7 +58,9 @@ using iTextSharp.text.xml.simpleparser;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.xml.simpleparser;
+
     /// <summary>
     /// Summary description for BaseFont.
     /// </summary>

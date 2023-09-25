@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.util.collections;
-using iTextSharp.text.pdf.draw;
+using iTextSharp4.text.pdf.draw;
 
 /*
  * Copyright 2001-2005 by Paulo Soares.
@@ -50,9 +50,10 @@ using iTextSharp.text.pdf.draw;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.draw;
 
-/**
+    /**
  * Formats text in a columnwise form. The text is bound
  * on the left and on the right by a sequence of lines. This allows the column
  * to have any shape, not only rectangular.

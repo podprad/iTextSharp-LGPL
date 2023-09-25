@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
 /*
  * $Id: RtfCodePage.cs,v 1.5 2008/05/16 19:30:50 psoares33 Exp $
  * 
@@ -52,7 +52,7 @@ using iTextSharp.text.rtf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.document {
+namespace iTextSharp4.text.rtf.document {
 
     /**
     * The RtfCodePage class allows different code pages to be used in the rtf document.

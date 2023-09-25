@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.rtf.parser;
-using iTextSharp.text.rtf.parser.ctrlwords;
-using iTextSharp.text.rtf.parser.enumerations;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf.parser;
+using iTextSharp4.text.rtf.parser.ctrlwords;
+using iTextSharp4.text.rtf.parser.enumerations;
 /*
  * $Id: RtfDestinationColorTable.cs,v 1.2 2008/05/13 11:26:00 psoares33 Exp $
  * 
@@ -53,7 +53,9 @@ using iTextSharp.text.rtf.parser.enumerations;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.rtf.parser.destinations {
+namespace iTextSharp4.text.rtf.parser.destinations {
+    using iTextSharp4.text.rtf.parser.ctrlwords;
+    using iTextSharp4.text.rtf.parser.enumerations;
 
     /**
     * <code>RtfDestinationColorTable</code> handles data destined for the color table destination

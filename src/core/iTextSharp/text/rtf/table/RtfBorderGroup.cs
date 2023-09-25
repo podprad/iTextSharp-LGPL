@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
 /*
  * $Id: RtfBorderGroup.cs,v 1.5 2008/05/16 19:31:18 psoares33 Exp $
  * 
@@ -54,7 +54,8 @@ using iTextSharp.text.rtf.document;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.table {
+namespace iTextSharp4.text.rtf.table {
+    using iTextSharp4.text.rtf.document;
 
     /**
     * The RtfBorderGroup represents a collection of RtfBorders to use in a RtfCell

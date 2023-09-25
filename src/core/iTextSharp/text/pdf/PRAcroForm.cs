@@ -52,7 +52,7 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
     * This class captures an AcroForm on input. Basically, it extends Dictionary
     * by indexing the fields of an AcroForm

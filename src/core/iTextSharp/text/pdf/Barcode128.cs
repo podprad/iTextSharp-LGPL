@@ -1,6 +1,6 @@
 using System;
 using System.Text;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * $Id: Barcode128.cs,v 1.6 2007/10/24 16:31:54 psoares33 Exp $
  *
@@ -49,7 +49,7 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** Implements the code 128 and UCC/EAN-128. Other symbologies are allowed in raw mode.<p>
      * The code types allowed are:<br>
      * <ul>

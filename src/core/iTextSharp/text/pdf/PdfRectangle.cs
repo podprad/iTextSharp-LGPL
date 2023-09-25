@@ -1,6 +1,6 @@
 using System;
 
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * Copyright 1999, 2000, 2001, 2002 Bruno Lowagie
@@ -49,7 +49,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * <CODE>PdfRectangle</CODE> is the PDF Rectangle object.

@@ -47,7 +47,7 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
     * An optional content group is a dictionary representing a collection of graphics
     * that can be made visible or invisible dynamically by users of viewer applications.

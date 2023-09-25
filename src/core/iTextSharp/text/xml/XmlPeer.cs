@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.util;
 
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: XmlPeer.cs,v 1.5 2008/05/13 11:26:12 psoares33 Exp $
@@ -54,7 +54,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml {
+namespace iTextSharp4.text.xml {
 
 	/// <summary>
 	/// This interface is implemented by the peer of all the iText objects.

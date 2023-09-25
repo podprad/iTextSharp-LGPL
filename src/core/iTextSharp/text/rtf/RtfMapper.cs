@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.field;
-using iTextSharp.text.rtf.graphic;
-using iTextSharp.text.rtf.list;
-using iTextSharp.text.rtf.table;
-using iTextSharp.text.rtf.text;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.rtf.document;
+using iTextSharp4.text.rtf.field;
+using iTextSharp4.text.rtf.graphic;
+using iTextSharp4.text.rtf.list;
+using iTextSharp4.text.rtf.table;
+using iTextSharp4.text.rtf.text;
 /*
  * $Id: RtfMapper.cs,v 1.4 2008/05/16 19:30:14 psoares33 Exp $
  * 
@@ -58,7 +58,14 @@ using iTextSharp.text.rtf.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf {
+namespace iTextSharp4.text.rtf {
+    using iTextSharp4.text.pdf;
+    using iTextSharp4.text.rtf.document;
+    using iTextSharp4.text.rtf.field;
+    using iTextSharp4.text.rtf.graphic;
+    using iTextSharp4.text.rtf.list;
+    using iTextSharp4.text.rtf.table;
+    using iTextSharp4.text.rtf.text;
 
     /**
     * The RtfMapper provides mappings between com.lowagie.text.* classes

@@ -1,13 +1,13 @@
 using System;
 using System.IO;
 using System.Net;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.document.output;
-using iTextSharp.text.rtf.text;
-using iTextSharp.text.rtf.style;
-using iTextSharp.text.pdf.codec.wmf;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
+using iTextSharp4.text.rtf.document.output;
+using iTextSharp4.text.rtf.text;
+using iTextSharp4.text.rtf.style;
+using iTextSharp4.text.pdf.codec.wmf;
 /*
  * $Id: RtfImage.cs,v 1.11 2008/05/16 19:30:59 psoares33 Exp $
  * 
@@ -58,7 +58,12 @@ using iTextSharp.text.pdf.codec.wmf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.graphic {
+namespace iTextSharp4.text.rtf.graphic {
+    using iTextSharp4.text.pdf.codec.wmf;
+    using iTextSharp4.text.rtf.document;
+    using iTextSharp4.text.rtf.document.output;
+    using iTextSharp4.text.rtf.style;
+    using iTextSharp4.text.rtf.text;
 
     /**
     * The RtfImage contains one image. Supported image types are jpeg, png, wmf, bmp.

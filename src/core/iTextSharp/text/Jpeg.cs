@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Net;
 using System.util;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 
 /*
  * $Id: Jpeg.cs,v 1.11 2008/05/13 11:25:11 psoares33 Exp $
@@ -54,13 +54,15 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.pdf;
+
     /// <summary>
     /// An Jpeg is the representation of a graphic element (JPEG)
     /// that has to be inserted into the document
     /// </summary>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.Image"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.Image"/>
     /// <seealso cref="T:iTextSharp.text.Gif"/>
     /// <seealso cref="T:iTextSharp.text.Png"/>
     public class Jpeg : Image {

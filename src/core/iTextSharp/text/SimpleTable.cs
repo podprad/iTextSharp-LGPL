@@ -1,10 +1,12 @@
 using System;
 using System.Collections;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 
-namespace iTextSharp.text
+namespace iTextSharp4.text
 {
-        /// <summary>
+    using iTextSharp4.text.pdf;
+
+    /// <summary>
         /// Summary description for SimpleTable.
         /// </summary>
     public class SimpleTable : Rectangle, IPdfPTableEvent, ITextElementArray {

@@ -2,7 +2,7 @@ using System;
 using Org.BouncyCastle.X509;
 
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     public class PdfPublicKeyRecipient {
 

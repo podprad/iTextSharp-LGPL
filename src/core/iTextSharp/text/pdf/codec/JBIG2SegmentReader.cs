@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 using System.util.collections;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 /*
  * $Id: JBIG2SegmentReader.java 3714 2009-02-20 21:04:16Z xlv $
  *
@@ -51,7 +51,7 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.codec {
+namespace iTextSharp4.text.pdf.codec {
 
     /**
     * Class to read a JBIG2 file at a basic level: understand all the segments, 

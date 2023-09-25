@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.IO;
-using iTextSharp.text.pdf.interfaces;
+using iTextSharp4.text.pdf.interfaces;
 using Org.BouncyCastle.X509;
 /*
  * Copyright 2004 by Paulo Soares.
@@ -50,7 +50,9 @@ using Org.BouncyCastle.X509;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.interfaces;
+
     /**
     * Concatenates PDF documents including form fields. The rules for the form field
     * concatenation are the same as in Acrobat. All the documents are kept in memory unlike

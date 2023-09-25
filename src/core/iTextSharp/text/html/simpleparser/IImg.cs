@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * Copyright 2005 Paulo Soares
@@ -48,7 +48,7 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.html.simpleparser {
+namespace iTextSharp4.text.html.simpleparser {
     public interface IImg {
         bool Process(Image img, Hashtable h, ChainedProperties cprops, IDocListener doc);
     }

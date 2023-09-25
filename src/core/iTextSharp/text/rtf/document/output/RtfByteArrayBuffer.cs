@@ -48,7 +48,7 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.document.output {
+namespace iTextSharp4.text.rtf.document.output {
 
     public class RtfByteArrayBuffer	: Stream {
         private ArrayList arrays = new ArrayList();

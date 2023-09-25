@@ -52,7 +52,7 @@ using System.Net;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** An implementation of a RandomAccessFile for input only
     * that accepts a file or a byte array as data source.
     *

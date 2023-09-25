@@ -1,8 +1,8 @@
 using System;
-using iTextSharp.text;
-using iTextSharp.text.rtf.style;
-using iTextSharp.text.rtf.parser;
-using iTextSharp.text.rtf.parser.ctrlwords;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf.style;
+using iTextSharp4.text.rtf.parser;
+using iTextSharp4.text.rtf.parser.ctrlwords;
 /*
  * $Id: RtfDestinationStylesheetTable.cs,v 1.2 2008/05/13 11:26:00 psoares33 Exp $
  * 
@@ -53,7 +53,9 @@ using iTextSharp.text.rtf.parser.ctrlwords;
  * http://www.lowagie.com/iText/
  */
  
-namespace iTextSharp.text.rtf.parser.destinations {
+namespace iTextSharp4.text.rtf.parser.destinations {
+    using iTextSharp4.text.rtf.parser.ctrlwords;
+    using iTextSharp4.text.rtf.style;
 
     /**
     * <code>RtfDestinationStylesheetTable</code> handles data destined for the 

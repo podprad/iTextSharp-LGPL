@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: MetaState.cs,v 1.6 2008/05/13 11:25:37 psoares33 Exp $
@@ -52,7 +52,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.codec.wmf {
+namespace iTextSharp4.text.pdf.codec.wmf {
     public class MetaState {
     
         public static int TA_NOUPDATECP = 0;

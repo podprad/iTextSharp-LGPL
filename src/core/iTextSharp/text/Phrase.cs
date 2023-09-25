@@ -2,11 +2,13 @@ using System;
 using System.Text;
 using System.Collections;
 using System.util;
-using iTextSharp.text.html;
-using iTextSharp.text.pdf;
-using iTextSharp.text.factories;
+using iTextSharp4.text.html;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.factories;
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.pdf;
+
     /// <summary>
     /// A Phrase is a series of Chunks.
     /// </summary>
@@ -129,7 +131,7 @@ namespace iTextSharp.text {
     
         /// <summary>
         /// Processes the element by adding it (or the different parts) to an
-        /// <see cref="iTextSharp.text.IElementListener"/>.
+        /// <see cref="IElementListener"/>.
         /// </summary>
         /// <param name="listener">an IElementListener</param>
         /// <returns>true if the element was processed successfully</returns>

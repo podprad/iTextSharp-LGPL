@@ -50,7 +50,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * A <CODE>PdfBorderDictionary</CODE> define the appearance of a Border (Annotations).

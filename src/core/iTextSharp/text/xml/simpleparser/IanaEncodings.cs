@@ -70,7 +70,7 @@ using System.Text;
  * limitations under the License.
  */
 
-namespace iTextSharp.text.xml.simpleparser {
+namespace iTextSharp4.text.xml.simpleparser {
 
     /**
     * Translates a IANA encoding name to a Java encoding.

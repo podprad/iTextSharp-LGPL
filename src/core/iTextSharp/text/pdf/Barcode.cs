@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * $Id: Barcode.cs,v 1.4 2006/07/31 13:51:38 psoares33 Exp $
  * 
@@ -48,7 +48,7 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** Base class containing properties and methods commom to all
      * barcode types.
      *

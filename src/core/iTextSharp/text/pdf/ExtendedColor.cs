@@ -1,6 +1,6 @@
 using System;
 
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: ExtendedColor.cs,v 1.4 2008/05/13 11:25:17 psoares33 Exp $
@@ -52,7 +52,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      *

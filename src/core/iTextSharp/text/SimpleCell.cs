@@ -1,9 +1,11 @@
 using System;
 using System.Collections;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 
-namespace iTextSharp.text
+namespace iTextSharp4.text
 {
+    using iTextSharp4.text.pdf;
+
     /// <summary>
     /// Summary description for SimpleCell.
     /// </summary>

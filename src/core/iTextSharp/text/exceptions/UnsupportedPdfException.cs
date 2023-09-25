@@ -48,7 +48,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.exceptions {
+namespace iTextSharp4.text.exceptions {
     /**
      * Typed exception used when opening an existing PDF document.
      * Gets thrown when the document isn't a valid PDF document according to iText,

@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text.factories;
+using iTextSharp4.text.factories;
 /*
  * $Id: ListItem.cs,v 1.11 2008/05/13 11:25:11 psoares33 Exp $
  * 
@@ -52,7 +52,7 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
     /// <summary>
     /// A ListItem is a Paragraph
     /// that can be added to a List.
@@ -96,9 +96,9 @@ namespace iTextSharp.text {
     ///        </LI>
     ///    </UL>
     /// </example>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.List"/>
-    /// <seealso cref="T:iTextSharp.text.Paragraph"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.List"/>
+    /// <seealso cref="T:iTextSharp4.text.Paragraph"/>
     public class ListItem : Paragraph {
     
         // membervariables

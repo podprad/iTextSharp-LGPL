@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
 /*
  * $Id: RtfListTable.cs,v 1.6 2008/05/16 19:31:04 psoares33 Exp $
  * 
@@ -54,7 +54,8 @@ using iTextSharp.text.rtf.document;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.list {
+namespace iTextSharp4.text.rtf.list {
+    using iTextSharp4.text.rtf.document;
 
     /**
     * The RtfListTable manages all RtfLists in one RtfDocument. It also generates

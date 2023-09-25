@@ -45,7 +45,7 @@ using System;
  * nuclear facility. 
  */
 
-namespace iTextSharp.text.pdf.codec {
+namespace iTextSharp4.text.pdf.codec {
     /**
     * A class representing a field in a TIFF 6.0 Image File Directory.
     *

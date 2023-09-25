@@ -49,7 +49,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml.xmp {
+namespace iTextSharp4.text.xml.xmp {
 
     /**
     * An implementation of an XmpSchema.

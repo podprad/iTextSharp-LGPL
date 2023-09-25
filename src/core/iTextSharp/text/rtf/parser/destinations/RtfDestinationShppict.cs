@@ -2,13 +2,13 @@ using System;
 using System.IO;
 using System.Text;
 using System.Globalization;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
-using iTextSharp.text.rtf.direct;
-using iTextSharp.text.rtf.graphic;
-using iTextSharp.text.rtf.parser;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.parser.ctrlwords;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.rtf.direct;
+using iTextSharp4.text.rtf.graphic;
+using iTextSharp4.text.rtf.parser;
+using iTextSharp4.text.rtf.document;
+using iTextSharp4.text.rtf.parser.ctrlwords;
 /*
  * $Id: RtfDestinationShppict.cs,v 1.2 2008/05/13 11:26:00 psoares33 Exp $
  * 
@@ -59,7 +59,10 @@ using iTextSharp.text.rtf.parser.ctrlwords;
  * http://www.lowagie.com/iText/
  */
  
-namespace iTextSharp.text.rtf.parser.destinations {
+namespace iTextSharp4.text.rtf.parser.destinations {
+    using iTextSharp4.text.pdf;
+    using iTextSharp4.text.rtf.direct;
+    using iTextSharp4.text.rtf.parser.ctrlwords;
 
     /**
     * <code>RtfDestinationShppict</code> handles data destined for picture destinations

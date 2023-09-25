@@ -1,10 +1,10 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.style;
-using ST = iTextSharp.text.rtf.style;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
+using iTextSharp4.text.rtf.style;
+using ST = iTextSharp4.text.rtf.style;
 /*
  * $Id: RtfChunk.cs,v 1.7 2008/05/16 19:31:24 psoares33 Exp $
  * 
@@ -55,7 +55,9 @@ using ST = iTextSharp.text.rtf.style;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp4.text.rtf.text {
+    using iTextSharp4.text.rtf.document;
+    using iTextSharp4.text.rtf.style;
 
     /**
     * The RtfChunk contains one piece of text. The smallest text element available
@@ -86,7 +88,7 @@ namespace iTextSharp.text.rtf.text {
         /**
         * The font of this RtfChunk
         */
-        private ST.RtfFont font = null;
+        private RtfFont font = null;
         /**
         * The actual content of this RtfChunk
         */
@@ -122,7 +124,7 @@ namespace iTextSharp.text.rtf.text {
             if (chunk.Attributes != null && chunk.Attributes[Chunk.BACKGROUND] != null) {
                 this.background = new RtfColor(this.document, (Color) ((Object[]) chunk.Attributes[Chunk.BACKGROUND])[0]);
             }
-            font = new ST.RtfFont(doc, chunk.Font);
+            font = new RtfFont(doc, chunk.Font);
             content = chunk.Content;
         }
         

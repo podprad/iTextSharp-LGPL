@@ -49,7 +49,7 @@ using System.Collections;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** Writes an FDF form.
     * @author Paulo Soares (psoares@consiste.pt)
     */

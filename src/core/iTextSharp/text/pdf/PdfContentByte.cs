@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
 using System.Text;
-using iTextSharp.text;
-using iTextSharp.text.exceptions;
-using iTextSharp.text.pdf;
-using iTextSharp.text.pdf.intern;
+using iTextSharp4.text;
+using iTextSharp4.text.exceptions;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.pdf.intern;
 
 /*
  * $Id: PdfContentByte.cs,v 1.23 2008/05/13 11:25:19 psoares33 Exp $
@@ -56,7 +56,10 @@ using iTextSharp.text.pdf.intern;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.exceptions;
+    using iTextSharp4.text.pdf.intern;
+
     /**
      * <CODE>PdfContentByte</CODE> is an object containing the user positioned
      * text and graphic contents of a page. It knows how to apply the proper
@@ -723,7 +726,7 @@ namespace iTextSharp.text.pdf {
         }
     
         /**
-         * Appends a Bêzier curve to the path, starting from the current point.
+         * Appends a BÃªzier curve to the path, starting from the current point.
          *
          * @param       x1      x-coordinate of the first control point
          * @param       y1      y-coordinate of the first control point
@@ -738,7 +741,7 @@ namespace iTextSharp.text.pdf {
         }
     
         /**
-         * Appends a Bêzier curve to the path, starting from the current point.
+         * Appends a BÃªzier curve to the path, starting from the current point.
          *
          * @param       x2      x-coordinate of the second control point
          * @param       y2      y-coordinate of the second control point
@@ -751,7 +754,7 @@ namespace iTextSharp.text.pdf {
         }
     
         /**
-         * Appends a Bêzier curve to the path, starting from the current point.
+         * Appends a BÃªzier curve to the path, starting from the current point.
          *
          * @param       x1      x-coordinate of the first control point
          * @param       y1      y-coordinate of the first control point
@@ -974,7 +977,7 @@ namespace iTextSharp.text.pdf {
             }
             else {
                 // the width is set to the width of the element
-                if (rectangle.BorderWidth != iTextSharp.text.Rectangle.UNDEFINED) {
+                if (rectangle.BorderWidth != text.Rectangle.UNDEFINED) {
                     SetLineWidth(rectangle.BorderWidth);
                 }
             
@@ -985,24 +988,24 @@ namespace iTextSharp.text.pdf {
                 }
             
                 // if the box is a rectangle, it is added as a rectangle
-                if (rectangle.HasBorder(iTextSharp.text.Rectangle.BOX)) {
+                if (rectangle.HasBorder(text.Rectangle.BOX)) {
                     this.Rectangle(x1, y1, x2 - x1, y2 - y1);
                 }
                     // if the border isn't a rectangle, the different sides are added apart
                 else {
-                    if (rectangle.HasBorder(iTextSharp.text.Rectangle.RIGHT_BORDER)) {
+                    if (rectangle.HasBorder(text.Rectangle.RIGHT_BORDER)) {
                         MoveTo(x2, y1);
                         LineTo(x2, y2);
                     }
-                    if (rectangle.HasBorder(iTextSharp.text.Rectangle.LEFT_BORDER)) {
+                    if (rectangle.HasBorder(text.Rectangle.LEFT_BORDER)) {
                         MoveTo(x1, y1);
                         LineTo(x1, y2);
                     }
-                    if (rectangle.HasBorder(iTextSharp.text.Rectangle.BOTTOM_BORDER)) {
+                    if (rectangle.HasBorder(text.Rectangle.BOTTOM_BORDER)) {
                         MoveTo(x1, y1);
                         LineTo(x2, y1);
                     }
-                    if (rectangle.HasBorder(iTextSharp.text.Rectangle.TOP_BORDER)) {
+                    if (rectangle.HasBorder(text.Rectangle.TOP_BORDER)) {
                         MoveTo(x1, y2);
                         LineTo(x2, y2);
                     }

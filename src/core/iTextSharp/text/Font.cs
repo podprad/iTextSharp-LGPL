@@ -1,8 +1,8 @@
 using System;
 using System.util;
 
-using iTextSharp.text.pdf;
-using iTextSharp.text.html;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.html;
 
 /*
  * $Id: Font.cs,v 1.11 2008/05/13 11:25:10 psoares33 Exp $
@@ -54,7 +54,10 @@ using iTextSharp.text.html;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.html;
+    using iTextSharp4.text.pdf;
+
     /// <summary>
     /// Contains all the specifications of a font: fontfamily, size, style and color.
     /// </summary>

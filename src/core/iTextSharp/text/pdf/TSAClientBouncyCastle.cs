@@ -60,7 +60,7 @@ using Org.BouncyCastle.Asn1.Tsp;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
     * Time Stamp Authority Client interface implementation using Bouncy Castle

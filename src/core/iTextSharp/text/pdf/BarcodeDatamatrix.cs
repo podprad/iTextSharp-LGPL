@@ -1,6 +1,6 @@
 using System;
-using iTextSharp.text;
-using iTextSharp.text.pdf.codec;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf.codec;
 using System.Collections;
 /*
  * $Id: BarcodeDatamatrix.cs,v 1.3 2007/05/21 10:56:38 psoares33 Exp $
@@ -51,7 +51,8 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.codec;
 
     public class BarcodeDatamatrix {
         /**

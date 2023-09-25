@@ -1,8 +1,8 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using ST = iTextSharp.text.rtf.style;
-using iTextSharp.text.rtf.document;
+using iTextSharp4.text;
+using ST = iTextSharp4.text.rtf.style;
+using iTextSharp4.text.rtf.document;
 /*
  * $Id: RtfField.cs,v 1.7 2008/05/16 19:30:54 psoares33 Exp $
  * 
@@ -56,7 +56,9 @@ using iTextSharp.text.rtf.document;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.field {
+namespace iTextSharp4.text.rtf.field {
+    using iTextSharp4.text.rtf.document;
+    using iTextSharp4.text.rtf.style;
 
     /**
     * The RtfField class is an abstract base class for all rtf field functionality.
@@ -68,7 +70,7 @@ namespace iTextSharp.text.rtf.field {
     * @author Mark Hall (Mark.Hall@mail.room3b.eu)
     * @author <a href="mailto:Dirk.Weigenand@smb-tec.com">Dirk Weigenand</a>
     */
-    public abstract class RtfField : Chunk, iTextSharp.text.rtf.IRtfBasicElement {
+    public abstract class RtfField : Chunk, IRtfBasicElement {
 
         /**
         * Constant for the beginning of a rtf group
@@ -159,7 +161,7 @@ namespace iTextSharp.text.rtf.field {
         /**
         * The RtfFont of this RtfField
         */
-        private new ST.RtfFont font = null;
+        private new RtfFont font = null;
 
         /**
         * Constructs a RtfField for a RtfDocument. This is not very usefull,
@@ -181,7 +183,7 @@ namespace iTextSharp.text.rtf.field {
         */
         protected RtfField(RtfDocument doc, Font font) : base("", font) {
             this.document = doc;
-            this.font = new ST.RtfFont(this.document, font);
+            this.font = new RtfFont(this.document, font);
         }
         
         /**
@@ -420,7 +422,7 @@ namespace iTextSharp.text.rtf.field {
         public override Font Font {
             set {
                 base.Font = value;
-                font = new ST.RtfFont(document, value);
+                font = new RtfFont(document, value);
             }
         }
     }

@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.rtf.document;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf.document;
 /*
  * $Id: RtfAddableElement.cs,v 1.6 2008/05/16 19:30:13 psoares33 Exp $
  * 
@@ -54,7 +54,8 @@ using iTextSharp.text.rtf.document;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf {
+namespace iTextSharp4.text.rtf {
+    using iTextSharp4.text.rtf.document;
 
     /**
     * The RtfAddableElement is the superclass for all rtf specific elements

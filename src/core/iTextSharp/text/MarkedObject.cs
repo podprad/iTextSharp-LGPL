@@ -51,7 +51,7 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
 
     /**
     * Wrapper that allows to add properties to 'basic building block' objects.

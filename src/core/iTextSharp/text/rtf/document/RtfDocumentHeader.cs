@@ -1,13 +1,13 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document.output;
-using iTextSharp.text.rtf.list;
-using ST = iTextSharp.text.rtf.style;
-using iTextSharp.text.rtf.style;
-using HF = iTextSharp.text.rtf.headerfooter;
-using iTextSharp.text.rtf.headerfooter;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document.output;
+using iTextSharp4.text.rtf.list;
+using ST = iTextSharp4.text.rtf.style;
+using iTextSharp4.text.rtf.style;
+using HF = iTextSharp4.text.rtf.headerfooter;
+using iTextSharp4.text.rtf.headerfooter;
 //using iTextSharp.text.rtf;
 /*
  * $Id: RtfDocumentHeader.cs,v 1.11 2008/05/16 19:30:51 psoares33 Exp $
@@ -59,7 +59,11 @@ using iTextSharp.text.rtf.headerfooter;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.document {
+namespace iTextSharp4.text.rtf.document {
+    using iTextSharp4.text.rtf.document.output;
+    using iTextSharp4.text.rtf.headerfooter;
+    using iTextSharp4.text.rtf.list;
+    using iTextSharp4.text.rtf.style;
 
     /**
     * The RtfDocumentHeader contains all classes required for the generation of
@@ -146,8 +150,8 @@ namespace iTextSharp.text.rtf.document {
             this.infoGroup = new RtfInfoGroup(this.document);
             this.protectionSetting = new RtfProtectionSetting(this.document);
             this.pageSetting = new RtfPageSetting(this.document);
-            this.header = new RtfHeaderFooterGroup(this.document, HF.RtfHeaderFooter.TYPE_HEADER);
-            this.footer = new RtfHeaderFooterGroup(this.document, HF.RtfHeaderFooter.TYPE_FOOTER);
+            this.header = new RtfHeaderFooterGroup(this.document, RtfHeaderFooter.TYPE_HEADER);
+            this.footer = new RtfHeaderFooterGroup(this.document, RtfHeaderFooter.TYPE_FOOTER);
             this.generator = new RtfGenerator(this.document);
         }
         
@@ -181,8 +185,8 @@ namespace iTextSharp.text.rtf.document {
         */
         public void WriteSectionDefinition(Stream result) {
             try {
-                RtfHeaderFooterGroup header = ConvertHeaderFooter(this.header, HF.RtfHeaderFooter.TYPE_HEADER);
-                RtfHeaderFooterGroup footer = ConvertHeaderFooter(this.footer, HF.RtfHeaderFooter.TYPE_FOOTER);
+                RtfHeaderFooterGroup header = ConvertHeaderFooter(this.header, RtfHeaderFooter.TYPE_HEADER);
+                RtfHeaderFooterGroup footer = ConvertHeaderFooter(this.footer, RtfHeaderFooter.TYPE_FOOTER);
                 if (header.HasTitlePage() || footer.HasTitlePage()) {
                     result.Write(TITLE_PAGE, 0, TITLE_PAGE.Length);
                     header.SetHasTitlePage();
@@ -206,7 +210,7 @@ namespace iTextSharp.text.rtf.document {
         * @param font The RtfFont for which to get the number
         * @return The number of the font
         */
-        public int GetFontNumber(ST.RtfFont font) {
+        public int GetFontNumber(RtfFont font) {
             return this.fontList.GetFontNumber(font);
         }
 
@@ -216,7 +220,7 @@ namespace iTextSharp.text.rtf.document {
         * @param color The RtfColor for which to get the number
         * @return The number of the color
         */
-        public int GetColorNumber(ST.RtfColor color) {
+        public int GetColorNumber(RtfColor color) {
             return this.colorList.GetColorNumber(color);
         }
         

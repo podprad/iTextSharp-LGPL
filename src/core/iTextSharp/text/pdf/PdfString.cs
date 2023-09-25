@@ -51,7 +51,7 @@ using System.IO;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * A <CODE>PdfString</CODE>-class is the PDF-equivalent of a JAVA-<CODE>string</CODE>-object.

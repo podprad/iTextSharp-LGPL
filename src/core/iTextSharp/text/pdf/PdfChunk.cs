@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.util;
 
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: PdfChunk.cs,v 1.11 2008/05/22 22:11:10 psoares33 Exp $
@@ -54,7 +54,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * A <CODE>PdfChunk</CODE> is the PDF translation of a <CODE>Chunk</CODE>.
@@ -194,13 +194,13 @@ namespace iTextSharp.text.pdf {
         
             Font f = chunk.Font;
             float size = f.Size;
-            if (size == iTextSharp.text.Font.UNDEFINED)
+            if (size == text.Font.UNDEFINED)
                 size = 12;
             baseFont = f.BaseFont;
             BaseFont bf = f.BaseFont;
             int style = f.Style;
-            if (style == iTextSharp.text.Font.UNDEFINED) {
-                style = iTextSharp.text.Font.NORMAL;
+            if (style == text.Font.UNDEFINED) {
+                style = text.Font.NORMAL;
             }
             if (baseFont == null) {
                 // translation of the font-family to a PDF font-family
@@ -208,10 +208,10 @@ namespace iTextSharp.text.pdf {
             }
             else{
                 // bold simulation
-                if ((style & iTextSharp.text.Font.BOLD) != 0)
+                if ((style & text.Font.BOLD) != 0)
                     attributes[Chunk.TEXTRENDERMODE] = new Object[]{PdfContentByte.TEXT_RENDER_MODE_FILL_STROKE, size / 30f, null};
                 // italic simulation
-                if ((style & iTextSharp.text.Font.ITALIC) != 0)
+                if ((style & text.Font.ITALIC) != 0)
                     attributes[Chunk.SKEW] = new float[]{0, ITALIC_ANGLE};
             }
             font = new PdfFont(baseFont, size);

@@ -2,8 +2,8 @@ using System;
 using System.Collections;
 using System.util;
 
-using iTextSharp.text.html;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.html;
+using iTextSharp4.text.pdf;
 
 /*
  * $Id: Table.cs,v 1.23 2008/05/13 11:25:13 psoares33 Exp $
@@ -58,7 +58,9 @@ using iTextSharp.text.pdf;
  * Steve Ogryzek. Check the CVS repository.
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.pdf;
+
     /// <summary>
     /// A Table is a Rectangle that contains Cells,
     /// ordered in some kind of matrix.
@@ -144,10 +146,10 @@ namespace iTextSharp.text {
     ///            </TR>
     ///    </TABLE>
     /// </example>
-    /// <seealso cref="T:iTextSharp.text.Rectangle"/>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.Row"/>
-    /// <seealso cref="T:iTextSharp.text.Cell"/>
+    /// <seealso cref="T:iTextSharp4.text.Rectangle"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.Row"/>
+    /// <seealso cref="T:iTextSharp4.text.Cell"/>
     public class Table : Rectangle, ILargeElement {
 
         // membervariables

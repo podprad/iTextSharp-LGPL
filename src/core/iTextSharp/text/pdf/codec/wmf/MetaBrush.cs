@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: MetaBrush.cs,v 1.3 2008/05/13 11:25:36 psoares33 Exp $
@@ -51,7 +51,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.codec.wmf {
+namespace iTextSharp4.text.pdf.codec.wmf {
     public class MetaBrush : MetaObject {
 
         public const int BS_SOLID = 0;

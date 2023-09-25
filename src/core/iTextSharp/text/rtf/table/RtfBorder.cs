@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.style;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
+using iTextSharp4.text.rtf.style;
 /*
  * $Id: RtfBorder.cs,v 1.6 2008/05/16 19:31:18 psoares33 Exp $
  * 
@@ -54,7 +54,9 @@ using iTextSharp.text.rtf.style;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.table {
+namespace iTextSharp4.text.rtf.table {
+    using iTextSharp4.text.rtf.document;
+    using iTextSharp4.text.rtf.style;
 
     /**
     * The RtfBorder handle one row or cell border.

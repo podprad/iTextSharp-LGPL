@@ -47,7 +47,7 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
     * Content typically belongs to a single optional content group,
     * and is visible when the group is <B>ON</B> and invisible when it is <B>OFF</B>. To express more

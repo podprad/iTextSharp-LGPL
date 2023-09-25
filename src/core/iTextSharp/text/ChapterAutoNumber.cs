@@ -47,7 +47,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
 
     /**
     * Chapter with auto numbering.

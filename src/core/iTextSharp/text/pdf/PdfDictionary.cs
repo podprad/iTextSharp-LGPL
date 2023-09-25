@@ -52,7 +52,7 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
      * <CODE>PdfDictionary</CODE> is the Pdf dictionary object.
      * <P>

@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text.factories;
+using iTextSharp4.text.factories;
 
 /*
  * $Id: Paragraph.cs,v 1.13 2008/05/13 11:25:12 psoares33 Exp $
@@ -53,7 +53,7 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
     /// <summary>
     /// A Paragraph is a series of Chunks and/or Phrases.
     /// </summary>
@@ -71,9 +71,9 @@ namespace iTextSharp.text {
     ///                FontFactory.GetFont(FontFactory.HELVETICA, 18, Font.BOLDITALIC, new Color(0, 0, 255)));</strong>
     ///    </code>
     /// </example>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.Phrase"/>
-    /// <seealso cref="T:iTextSharp.text.ListItem"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.Phrase"/>
+    /// <seealso cref="T:iTextSharp4.text.ListItem"/>
     public class Paragraph : Phrase {
     
         // membervariables

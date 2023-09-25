@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text.factories;
+using iTextSharp4.text.factories;
 
 /*
  * $Id: List.cs,v 1.20 2008/05/13 11:25:11 psoares33 Exp $
@@ -53,7 +53,9 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.factories;
+
     /// <summary>
     /// A List contains several ListItems.
     /// </summary>
@@ -96,8 +98,8 @@ namespace iTextSharp.text {
     ///        </LI>
     ///    </UL>
     /// </example>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.ListItem"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.ListItem"/>
     public class List : ITextElementArray {
     
         // membervariables

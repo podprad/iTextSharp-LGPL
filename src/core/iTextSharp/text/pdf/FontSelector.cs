@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Text;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * Copyright 2003 by Paulo Soares.
  *
@@ -49,7 +49,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** Selects the appropriate fonts that contain the glyphs needed to
     * render text correctly. The fonts are checked in order until the 
     * character is found.

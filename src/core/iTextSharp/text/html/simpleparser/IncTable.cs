@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
 /*
  * Copyright 2004 Paulo Soares
  *
@@ -49,7 +49,8 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html.simpleparser {
+namespace iTextSharp4.text.html.simpleparser {
+    using iTextSharp4.text.pdf;
 
     /**
     *

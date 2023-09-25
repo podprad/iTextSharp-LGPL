@@ -1,6 +1,6 @@
 using System;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
 /*
  * $Id: JBIG2Image.java 3715 2009-02-23 15:02:23Z blowagie $
  *
@@ -50,7 +50,7 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.codec {
+namespace iTextSharp4.text.pdf.codec {
 
     /**
     * Support for JBIG2 Images.

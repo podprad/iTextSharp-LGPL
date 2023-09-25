@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 using System.Collections;
-using iTextSharp.text.xml.simpleparser;
+using iTextSharp4.text.xml.simpleparser;
 /*
  *
  * Copyright 2004 by Leonard Rosenthol.
@@ -50,7 +50,9 @@ using iTextSharp.text.xml.simpleparser;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.xml.simpleparser;
+
     /**
     * Reads a XFDF.
     * @author Leonard Rosenthol (leonardr@pdfsages.com)

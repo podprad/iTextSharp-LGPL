@@ -1,8 +1,8 @@
 using System;
 using System.IO;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
 /*
  * $Id: RtfInfoGroup.cs,v 1.6 2008/05/16 19:30:51 psoares33 Exp $
  * 
@@ -53,7 +53,7 @@ using iTextSharp.text.rtf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.document {
+namespace iTextSharp4.text.rtf.document {
 
     /**
     * The RtfInfoGroup stores information group elements. 

@@ -1,8 +1,8 @@
 using System;
 using System.IO;
 using System.Collections;
-using iTextSharp.text.pdf;
-using iTextSharp.text.xml.simpleparser;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.xml.simpleparser;
 /*
  * $Id: XmpWriter.cs,v 1.10 2008/05/13 11:26:16 psoares33 Exp $
  * 
@@ -53,7 +53,9 @@ using iTextSharp.text.xml.simpleparser;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml.xmp {
+namespace iTextSharp4.text.xml.xmp {
+    using iTextSharp4.text.pdf;
+    using iTextSharp4.text.xml.simpleparser;
 
     /**
     * With this class you can create an Xmp Stream that can be used for adding

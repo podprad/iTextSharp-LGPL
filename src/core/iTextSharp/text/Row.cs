@@ -52,7 +52,7 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
     /// <summary>
     /// A Row is part of a Table
     /// and contains some Cells.
@@ -65,9 +65,9 @@ namespace iTextSharp.text {
     /// Since a Cell can span several rows and/or columns
     /// a row can contain reserved space without any content.
     /// </remarks>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.Cell"/>
-    /// <seealso cref="T:iTextSharp.text.Table"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.Cell"/>
+    /// <seealso cref="T:iTextSharp4.text.Table"/>
     public class Row : IElement {
     
         // membervariables

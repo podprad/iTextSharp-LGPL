@@ -51,7 +51,7 @@ using System.IO;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf {
+namespace iTextSharp4.text.rtf {
 
     /**
     * The RtfExtendedElement interface is to be used for elements that also

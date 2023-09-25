@@ -1,11 +1,11 @@
 using System;
 using System.IO;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.graphic;
-using ST = iTextSharp.text.rtf.style;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
+using iTextSharp4.text.rtf.graphic;
+using ST = iTextSharp4.text.rtf.style;
 /*
  * $Id: RtfParagraph.cs,v 1.11 2008/05/16 19:31:24 psoares33 Exp $
  * 
@@ -56,7 +56,10 @@ using ST = iTextSharp.text.rtf.style;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp4.text.rtf.text {
+    using iTextSharp4.text.rtf.document;
+    using iTextSharp4.text.rtf.graphic;
+    using iTextSharp4.text.rtf.style;
 
     /**
     * The RtfParagraph is an extension of the RtfPhrase that adds alignment and
@@ -74,7 +77,7 @@ namespace iTextSharp.text.rtf.text {
         /**
         * An optional RtfParagraphStyle to use for styling.
         */
-        protected ST.RtfParagraphStyle paragraphStyle = null;
+        protected RtfParagraphStyle paragraphStyle = null;
         
         /**
         * Constructs a RtfParagraph belonging to a RtfDocument based on a Paragraph.
@@ -83,13 +86,13 @@ namespace iTextSharp.text.rtf.text {
         * @param paragraph The Paragraph that this RtfParagraph is based on
         */
         public RtfParagraph(RtfDocument doc, Paragraph paragraph) : base(doc) {
-            ST.RtfFont baseFont = null;
-            if (paragraph.Font is ST.RtfParagraphStyle) {
-                this.paragraphStyle = this.document.GetDocumentHeader().GetRtfParagraphStyle(((ST.RtfParagraphStyle) paragraph.Font).GetStyleName());
+            RtfFont baseFont = null;
+            if (paragraph.Font is RtfParagraphStyle) {
+                this.paragraphStyle = this.document.GetDocumentHeader().GetRtfParagraphStyle(((RtfParagraphStyle) paragraph.Font).GetStyleName());
                 baseFont = this.paragraphStyle;
             } else {
-                baseFont = new ST.RtfFont(this.document, paragraph.Font);
-                this.paragraphStyle = new ST.RtfParagraphStyle(this.document, this.document.GetDocumentHeader().GetRtfParagraphStyle("Normal"));
+                baseFont = new RtfFont(this.document, paragraph.Font);
+                this.paragraphStyle = new RtfParagraphStyle(this.document, this.document.GetDocumentHeader().GetRtfParagraphStyle("Normal"));
                 this.paragraphStyle.SetAlignment(paragraph.Alignment);
                 this.paragraphStyle.SetFirstLineIndent((int) (paragraph.FirstLineIndent * RtfElement.TWIPS_FACTOR));
                 this.paragraphStyle.SetIndentLeft((int) (paragraph.IndentationLeft * RtfElement.TWIPS_FACTOR));

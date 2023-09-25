@@ -53,7 +53,7 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
 /**
  * Each PDF document can contain maximum 1 AcroForm.

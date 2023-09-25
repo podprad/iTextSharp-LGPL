@@ -1,6 +1,6 @@
 using System;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
 /*
  * $Id: IPdfPageActions.cs,v 1.1 2007/02/09 15:34:40 psoares33 Exp $
  *
@@ -50,7 +50,7 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.interfaces {
+namespace iTextSharp4.text.pdf.interfaces {
 
     /**
     * A PDF page can have an open and/or close action.

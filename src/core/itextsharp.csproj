@@ -4,7 +4,7 @@
 		<ProductVersion>7.10.3077</ProductVersion>
 		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
 		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-		<AssemblyName>itextsharp</AssemblyName>
+		<AssemblyName>itextsharp4</AssemblyName>
 		<!--
 		<DefaultClientScript>JScript</DefaultClientScript>
 		<DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>

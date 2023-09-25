@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 /*
  * $Id: IPdfViewerPreferences.cs,v 1.3 2008/05/02 15:58:08 psoares33 Exp $
  *
@@ -49,7 +49,7 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.interfaces {
+namespace iTextSharp4.text.pdf.interfaces {
 
     /**
     * Viewer preferences are described in section 3.6.1 and 8.1 of the

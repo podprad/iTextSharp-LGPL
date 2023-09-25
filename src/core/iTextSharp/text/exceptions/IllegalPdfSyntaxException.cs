@@ -48,7 +48,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.exceptions {
+namespace iTextSharp4.text.exceptions {
 
     /**
      * Typed exception used when creating PDF syntax that isn't valid.

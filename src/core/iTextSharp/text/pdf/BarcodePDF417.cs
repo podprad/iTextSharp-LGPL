@@ -1,10 +1,12 @@
 using System;
-using iTextSharp.text;
-using iTextSharp.text.pdf.codec;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf.codec;
 using System.Collections;
 using System.Text;
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.codec;
+
     /** Generates the 2D barcode PDF417. Supports dimensioning auto-sizing, fixed
     * and variable sizes, automatic and manual error levels, raw codeword input,
     * codeword size optimization and bitmap inversion. The output can

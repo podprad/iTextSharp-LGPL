@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * $Id: BarcodeCodabar.cs,v 1.7 2007/02/22 20:48:38 psoares33 Exp $
  *
@@ -49,7 +49,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf
+namespace iTextSharp4.text.pdf
 {
     /** Implements the code codabar. The default parameters are:
     * <pre>

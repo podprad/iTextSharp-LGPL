@@ -1,6 +1,6 @@
 using System;
 using System.Text;
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: BarcodeInter25.cs,v 1.5 2006/09/17 15:58:51 psoares33 Exp $
@@ -50,7 +50,7 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** Implements the code interleaved 2 of 5. The text can include
      * non numeric characters that are printed but do not generate bars.
      * The default parameters are:

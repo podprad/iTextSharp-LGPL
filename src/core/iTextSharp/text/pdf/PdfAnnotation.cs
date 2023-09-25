@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Text;
 using System.util;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * $Id: PdfAnnotation.cs,v 1.12 2008/05/24 18:41:23 psoares33 Exp $
  * 
@@ -53,7 +53,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
      * A <CODE>PdfAnnotation</CODE> is a note that is associated with a page.
      *

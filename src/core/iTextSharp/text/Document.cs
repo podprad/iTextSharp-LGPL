@@ -51,7 +51,7 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
 
     /// <summary>
     /// A generic Document class.
@@ -184,7 +184,7 @@ namespace iTextSharp.text {
         /// <overloads>
         /// Has three overloads.
         /// </overloads>
-        public Document() : this(iTextSharp.text.PageSize.A4) {}
+        public Document() : this(text.PageSize.A4) {}
 
         /// <summary>
         /// Constructs a new Document-object.

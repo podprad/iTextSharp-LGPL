@@ -48,7 +48,7 @@ using System;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.rtf.parser.exceptions {
+namespace iTextSharp4.text.rtf.parser.exceptions {
 
     /*
     * Signals that an error has occurred in a <CODE>RtfParser</CODE>.

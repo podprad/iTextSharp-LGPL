@@ -50,7 +50,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.codec.wmf {
+namespace iTextSharp4.text.pdf.codec.wmf {
     public class MetaFont : MetaObject {
         static string[] fontNames = {
                                         "Courier", "Courier-Bold", "Courier-Oblique", "Courier-BoldOblique",
@@ -128,7 +128,7 @@ namespace iTextSharp.text.pdf.codec.wmf {
             get {
                 if (font != null)
                     return font;
-                iTextSharp.text.Font ff2 = FontFactory.GetFont(faceName, BaseFont.CP1252, true, 10, ((italic != 0) ? iTextSharp.text.Font.ITALIC : 0) | ((bold != 0) ? iTextSharp.text.Font.BOLD : 0));
+                Font ff2 = FontFactory.GetFont(faceName, BaseFont.CP1252, true, 10, ((italic != 0) ? text.Font.ITALIC : 0) | ((bold != 0) ? text.Font.BOLD : 0));
                 font = ff2.BaseFont;
                 if (font != null)
                     return font;

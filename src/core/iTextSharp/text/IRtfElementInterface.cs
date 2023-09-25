@@ -48,7 +48,7 @@
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
 
     /**
     * The RTF jar depends on the iText jar, but the iText jar may not

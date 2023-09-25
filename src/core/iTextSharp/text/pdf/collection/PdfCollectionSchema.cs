@@ -1,7 +1,7 @@
 using System;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 
-namespace iTextSharp.text.pdf.collection {
+namespace iTextSharp4.text.pdf.collection {
 
     public class PdfCollectionSchema : PdfDictionary {
         /**

@@ -2,8 +2,8 @@ using System;
 using System.Collections;
 using System.util;
 
-using iTextSharp.text.html;
-using iTextSharp.text.factories;
+using iTextSharp4.text.html;
+using iTextSharp4.text.factories;
 
 /*
  * $Id: Anchor.cs,v 1.9 2008/05/13 11:25:08 psoares33 Exp $
@@ -55,17 +55,17 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text 
+namespace iTextSharp4.text 
 {
     /// <summary>
     /// An Anchor can be a reference or a destination of a reference.
     /// </summary>
     /// <remarks>
-    /// An Anchor is a special kind of <see cref="T:iTextSharp.text.Phrase"/>.
+    /// An Anchor is a special kind of <see cref="T:iTextSharp4.text.Phrase"/>.
     /// It is constructed in the same way.
     /// </remarks>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.Phrase"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.Phrase"/>
     public class Anchor : Phrase 
     {
     
@@ -158,7 +158,7 @@ namespace iTextSharp.text
     
         /// <summary>
         /// Processes the element by adding it (or the different parts) to an
-        /// <see cref="T:iTextSharp.text.IElementListener"/>
+        /// <see cref="T:iTextSharp4.text.IElementListener"/>
         /// </summary>
         /// <param name="listener">an IElementListener</param>
         /// <returns>true if the element was processed successfully</returns>

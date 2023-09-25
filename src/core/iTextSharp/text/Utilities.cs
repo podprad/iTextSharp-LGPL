@@ -3,7 +3,7 @@ using System.util;
 using System.Collections;
 using System.Text;
 using System.IO;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 /*
  * $Id: Utilities.cs,v 1.9 2008/05/13 11:25:13 psoares33 Exp $
  * 
@@ -53,7 +53,8 @@ using iTextSharp.text.pdf;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.pdf;
 
     /**
     * A collection of convenience methods that were present in many different iText

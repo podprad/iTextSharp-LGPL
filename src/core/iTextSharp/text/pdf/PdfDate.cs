@@ -49,7 +49,7 @@ using System.Globalization;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * <CODE>PdfDate</CODE> is the PDF date object.

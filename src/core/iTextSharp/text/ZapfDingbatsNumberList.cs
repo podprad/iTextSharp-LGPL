@@ -1,6 +1,6 @@
 using System;
 
-namespace iTextSharp.text
+namespace iTextSharp4.text
 {
     /**
     * 

@@ -4,7 +4,7 @@ using System.Text;
 using System.IO;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.Crypto;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * $Id: PdfSignatureAppearance.cs,v 1.13 2008/04/17 15:32:39 psoares33 Exp $
  * 
@@ -53,7 +53,7 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
     * This class takes care of the cryptographic options and appearances that form a signature.
@@ -437,7 +437,7 @@ namespace iTextSharp.text.pdf {
                 }
 
                 if (Render == SignatureRender.NameAndDescription) {
-                    string signedBy = iTextSharp.text.pdf.PdfPKCS7.GetSubjectFields(this.certChain[0]).GetField("CN");
+                    string signedBy = PdfPKCS7.GetSubjectFields(this.certChain[0]).GetField("CN");
                     Rectangle sr2 = new Rectangle(signatureRect.Width - MARGIN, signatureRect.Height - MARGIN );
                     float signedSize = FitText(font, signedBy, sr2, -1, runDirection);
 

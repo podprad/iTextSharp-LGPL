@@ -48,7 +48,7 @@ using System;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.rtf.parser.ctrlwords {
+namespace iTextSharp4.text.rtf.parser.ctrlwords {
     /**
     * <code>RtfCtrlWordType</code> indicates the type of control word.
     * 

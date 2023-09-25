@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Collections;
 using System.util;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 /*
  * $Id: DocWriter.cs,v 1.7 2008/05/13 11:25:09 psoares33 Exp $
  * 
@@ -53,7 +53,9 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.pdf;
+
     /// <summary>
     /// An abstract Writer class for documents.
     /// </summary>
@@ -67,8 +69,8 @@ namespace iTextSharp.text {
     /// will be written to the stream of the listening
     /// DocWriter.
     /// </remarks>
-    /// <seealso cref="T:iTextSharp.text.Document"/>
-    /// <seealso cref="T:iTextSharp.text.IDocListener"/>
+    /// <seealso cref="T:iTextSharp4.text.Document"/>
+    /// <seealso cref="T:iTextSharp4.text.IDocListener"/>
     public abstract class DocWriter : IDocListener {
 
         /// <summary> This is some byte that is often used. </summary>

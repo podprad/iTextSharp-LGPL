@@ -50,7 +50,7 @@ using System.Text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 /** This class takes any PDF and returns exactly the same but
  * encrypted. All the content, links, outlines, etc, are kept.
  * It is also possible to change the info dictionary.

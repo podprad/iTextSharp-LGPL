@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text.pdf.crypto;
+using iTextSharp4.text.pdf.crypto;
 /*
  * $Id: StandardDecryption.cs,v 1.3 2007/04/29 13:57:12 psoares33 Exp $
  *
@@ -49,7 +49,7 @@ using iTextSharp.text.pdf.crypto;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.crypto {
+namespace iTextSharp4.text.pdf.crypto {
 
     public class StandardDecryption {
         protected ARCFOUREncryption arcfour;

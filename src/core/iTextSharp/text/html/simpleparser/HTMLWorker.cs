@@ -4,11 +4,11 @@ using System.Text;
 using System.Collections;
 using System.Globalization;
 using System.util;
-using iTextSharp.text;
-using iTextSharp.text.html;
-using iTextSharp.text.pdf;
-using iTextSharp.text.pdf.draw;
-using iTextSharp.text.xml.simpleparser;
+using iTextSharp4.text;
+using iTextSharp4.text.html;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.pdf.draw;
+using iTextSharp4.text.xml.simpleparser;
 /*
  * Copyright 2004 Paulo Soares
  *
@@ -56,7 +56,10 @@ using iTextSharp.text.xml.simpleparser;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html.simpleparser {
+namespace iTextSharp4.text.html.simpleparser {
+    using iTextSharp4.text.pdf;
+    using iTextSharp4.text.pdf.draw;
+    using iTextSharp4.text.xml.simpleparser;
 
     public class HTMLWorker : ISimpleXMLDocHandler, IDocListener {
         

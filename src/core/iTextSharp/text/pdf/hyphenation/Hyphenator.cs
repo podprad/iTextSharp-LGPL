@@ -3,7 +3,7 @@ using System.IO;
 using System.Text;
 using System.Collections;
 using System.util;
-using iTextSharp.text.pdf;
+using iTextSharp4.text.pdf;
 /*
  * Copyright 1999-2004 The Apache Software Foundation.
  * 
@@ -20,7 +20,7 @@ using iTextSharp.text.pdf;
  * limitations under the License.
  */
 
-namespace iTextSharp.text.pdf.hyphenation {
+namespace iTextSharp4.text.pdf.hyphenation {
     /**
     * This class is the main entry point to the hyphenation package.
     * You can use only the static methods or create an instance.

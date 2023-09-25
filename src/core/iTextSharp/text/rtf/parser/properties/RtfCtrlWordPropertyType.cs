@@ -46,7 +46,7 @@
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.rtf.parser.properties {
+namespace iTextSharp4.text.rtf.parser.properties {
 
     public class RtfCtrlWordPropertyType {
         public const int UNIDENTIFIED = -1;

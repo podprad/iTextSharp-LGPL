@@ -140,7 +140,7 @@ using System.Text;
  *                                                                  *
  ********************************************************************/
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
     * Converts a PFM file into an AFM file.
     */

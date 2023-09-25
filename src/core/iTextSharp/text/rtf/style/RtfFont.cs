@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 using System.util;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
 /*
  * $Id: RtfFont.cs,v 1.13 2008/05/16 19:31:11 psoares33 Exp $
  * 
@@ -54,7 +54,8 @@ using iTextSharp.text.rtf.document;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.style {
+namespace iTextSharp4.text.rtf.style {
+    using iTextSharp4.text.rtf.document;
 
     /**
     * The RtfFont class stores one font for an rtf document. It extends Font,

@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: FontDetails.cs,v 1.7 2008/05/13 11:25:17 psoares33 Exp $
@@ -53,7 +53,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /** Each font in the document will have an instance of this class
      * where the characters used will be represented.

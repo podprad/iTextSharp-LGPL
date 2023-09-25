@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text.factories;
+using iTextSharp4.text.factories;
 
 /*
  * $Id: Chapter.cs,v 1.10 2008/05/13 11:25:08 psoares33 Exp $
@@ -54,7 +54,7 @@ using iTextSharp.text.factories;
  *
  */
 
-namespace iTextSharp.text 
+namespace iTextSharp4.text 
 {
     /// <summary>
     /// A Chapter is a special Section.

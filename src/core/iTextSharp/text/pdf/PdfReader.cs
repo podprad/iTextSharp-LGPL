@@ -4,10 +4,10 @@ using System.Security.Cryptography;
 using System.Net;
 using System.Text;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.exceptions;
-using iTextSharp.text.pdf.intern;
-using iTextSharp.text.pdf.interfaces;
+using iTextSharp4.text;
+using iTextSharp4.text.exceptions;
+using iTextSharp4.text.pdf.intern;
+using iTextSharp4.text.pdf.interfaces;
 using System.util;
 using System.util.zlib;
 using Org.BouncyCastle.Crypto;
@@ -63,7 +63,11 @@ using Org.BouncyCastle.X509;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.exceptions;
+    using iTextSharp4.text.pdf.interfaces;
+    using iTextSharp4.text.pdf.intern;
+
     /** Reads a PDF document.
     * @author Paulo Soares (psoares@consiste.pt)
     * @author Kazuya Ujihara

@@ -1,6 +1,6 @@
 using System;
 
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: PdfSchema.cs,v 1.3 2008/05/13 11:26:16 psoares33 Exp $
@@ -52,7 +52,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml.xmp {
+namespace iTextSharp4.text.xml.xmp {
 
     /**
     * An implementation of an XmpSchema.

@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text;
-using iTextSharp.text.html;
-using iTextSharp.text.factories;
+using iTextSharp4.text;
+using iTextSharp4.text.html;
+using iTextSharp4.text.factories;
 /*
  * $Id: ElementFactory.cs,v 1.9 2008/05/13 11:25:14 psoares33 Exp $
  * 
@@ -53,7 +53,8 @@ using iTextSharp.text.factories;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.factories {
+namespace iTextSharp4.text.factories {
+    using iTextSharp4.text.html;
 
     /**
     * This class is able to create Element objects based on a list of properties.

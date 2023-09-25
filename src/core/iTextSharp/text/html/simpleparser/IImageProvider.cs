@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * Copyright 2007 Paulo Soares
  *
@@ -48,7 +48,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html.simpleparser {
+namespace iTextSharp4.text.html.simpleparser {
     public interface IImageProvider {
         Image GetImage(String src, Hashtable h, ChainedProperties cprops, IDocListener doc);
     }

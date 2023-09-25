@@ -1,6 +1,6 @@
 using System;
 
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: PdfException.cs,v 1.3 2008/05/13 11:25:20 psoares33 Exp $
@@ -52,7 +52,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * Signals that an unspecified problem while constructing a PDF document.

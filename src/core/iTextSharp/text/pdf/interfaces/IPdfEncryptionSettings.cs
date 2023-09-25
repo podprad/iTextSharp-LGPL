@@ -49,7 +49,7 @@ using Org.BouncyCastle.X509;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.interfaces {
+namespace iTextSharp4.text.pdf.interfaces {
 
     /**
     * Encryption settings are described in section 3.5 (more specifically

@@ -49,7 +49,7 @@ using System.Security.Cryptography;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
 
     /**
     * Support for JBIG2 images.

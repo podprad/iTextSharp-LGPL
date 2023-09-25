@@ -66,7 +66,7 @@ using Org.BouncyCastle.Utilities;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
     * This class does all the processing related to signing and verifying a PKCS#7
     * signature.

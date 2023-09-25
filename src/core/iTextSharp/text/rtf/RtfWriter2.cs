@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.text;
-using iTextSharp.text.rtf.parser;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf.document;
+using iTextSharp4.text.rtf.text;
+using iTextSharp4.text.rtf.parser;
 /*
  * $Id: RtfWriter2.cs,v 1.11 2008/05/23 17:24:11 psoares33 Exp $
  * 
@@ -54,7 +54,10 @@ using iTextSharp.text.rtf.parser;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf {
+namespace iTextSharp4.text.rtf {
+    using iTextSharp4.text.rtf.document;
+    using iTextSharp4.text.rtf.parser;
+    using iTextSharp4.text.rtf.text;
 
     /**
     * The RtfWriter allows the creation of rtf documents via the iText system

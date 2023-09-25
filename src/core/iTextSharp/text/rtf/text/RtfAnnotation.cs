@@ -1,8 +1,8 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
 /*
  * $Id: RtfAnnotation.cs,v 1.5 2008/05/16 19:31:23 psoares33 Exp $
  * 
@@ -53,7 +53,8 @@ using iTextSharp.text.rtf.document;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp4.text.rtf.text {
+    using iTextSharp4.text.rtf.document;
 
     /**
     * The RtfAnnotation provides support for adding Annotations to the rtf document.

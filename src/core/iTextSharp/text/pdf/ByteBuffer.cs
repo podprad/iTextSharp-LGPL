@@ -53,7 +53,7 @@ using System.Globalization;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
      * Acts like a <CODE>StringBuilder</CODE> but works with <CODE>byte</CODE> arrays.
      * floating point is converted to a format suitable to the PDF.

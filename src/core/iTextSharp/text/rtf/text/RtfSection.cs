@@ -2,11 +2,11 @@ using System;
 using System.IO;
 using System.Collections;
 using System.Text;
-using iTextSharp.text;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.field;
-using FD = iTextSharp.text.rtf.field;
-using iTextSharp.text.rtf;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf.document;
+using iTextSharp4.text.rtf.field;
+using FD = iTextSharp4.text.rtf.field;
+using iTextSharp4.text.rtf;
 /*
  * $Id: RtfSection.cs,v 1.9 2008/05/16 19:31:24 psoares33 Exp $
  * 
@@ -57,7 +57,9 @@ using iTextSharp.text.rtf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp4.text.rtf.text {
+    using iTextSharp4.text.rtf.document;
+    using iTextSharp4.text.rtf.field;
 
     /**
     * The RtfSection wraps a Section element.
@@ -99,7 +101,7 @@ namespace iTextSharp.text.rtf.text {
                         }
                     }
                     if (titleText.ToString().Trim().Length > 0) {
-                        FD.RtfTOCEntry tocEntry = new FD.RtfTOCEntry(titleText.ToString());
+                        RtfTOCEntry tocEntry = new RtfTOCEntry(titleText.ToString());
                         tocEntry.SetRtfDocument(this.document);
                         this.items.Add(tocEntry);
                     }

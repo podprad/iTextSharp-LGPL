@@ -1,11 +1,11 @@
 using System;
 using System.IO;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.style;
-using ST = iTextSharp.text.rtf.style;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
+using iTextSharp4.text.rtf.style;
+using ST = iTextSharp4.text.rtf.style;
 
 /*
  * $Id: RtfPhrase.cs,v 1.10 2008/05/16 19:31:24 psoares33 Exp $
@@ -57,7 +57,9 @@ using ST = iTextSharp.text.rtf.style;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp4.text.rtf.text {
+    using iTextSharp4.text.rtf.document;
+    using iTextSharp4.text.rtf.style;
 
     /**
     * The RtfPhrase contains multiple RtfChunks
@@ -119,7 +121,7 @@ namespace iTextSharp.text.rtf.text {
                 this.lineLeading = 0;
             }
             
-            ST.RtfFont phraseFont = new ST.RtfFont(null, phrase.Font);
+            RtfFont phraseFont = new RtfFont(null, phrase.Font);
             for (int i = 0; i < phrase.Count; i++) {
                 IElement chunk = (IElement) phrase[i];
                 if (chunk is Chunk) {

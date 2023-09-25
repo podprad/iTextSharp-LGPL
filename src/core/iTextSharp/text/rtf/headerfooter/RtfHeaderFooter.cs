@@ -1,16 +1,18 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
-using FD = iTextSharp.text.rtf.field;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
+using FD = iTextSharp4.text.rtf.field;
 /*
  * Created on Aug 10, 2004
  *
  * To change the template for this generated file go to
  * Window - Preferences - Java - Code Generation - Code and Comments
  */
-namespace iTextSharp.text.rtf.headerfooter {
+namespace iTextSharp4.text.rtf.headerfooter {
+    using iTextSharp4.text.rtf.document;
+    using iTextSharp4.text.rtf.field;
 
     /**
     * The RtfHeaderFooter represents one header or footer. This class can be used
@@ -116,7 +118,7 @@ namespace iTextSharp.text.rtf.headerfooter {
                 par.Add(headerFooter.Before);
             }
             if (headerFooter.IsNumbered()) {
-                par.Add(new FD.RtfPageNumber(this.document));
+                par.Add(new RtfPageNumber(this.document));
             }
             if (headerFooter.After != null) {
                 par.Add(headerFooter.After);
@@ -172,7 +174,7 @@ namespace iTextSharp.text.rtf.headerfooter {
                 par.Add(headerFooter.Before);
             }
             if (headerFooter.IsNumbered()) {
-                par.Add(new FD.RtfPageNumber(this.document));
+                par.Add(new RtfPageNumber(this.document));
             }
             if (headerFooter.After != null) {
                 par.Add(headerFooter.After);

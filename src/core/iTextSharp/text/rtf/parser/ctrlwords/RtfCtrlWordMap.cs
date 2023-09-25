@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
-using iTextSharp.text.rtf.parser;
-using iTextSharp.text.rtf.parser.properties;
+using iTextSharp4.text.rtf.parser;
+using iTextSharp4.text.rtf.parser.properties;
 /*
  * $Id: RtfCtrlWordMap.cs,v 1.2 2008/05/13 11:25:59 psoares33 Exp $
  * 
@@ -51,7 +51,7 @@ using iTextSharp.text.rtf.parser.properties;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.rtf.parser.ctrlwords {
+namespace iTextSharp4.text.rtf.parser.ctrlwords {
 
     /**
     * <code>RtfCtrlWords</code> handles the creation of the control word wiring.

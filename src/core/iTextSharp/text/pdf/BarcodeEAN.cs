@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text;
+using iTextSharp4.text;
 using System.Collections;
 
 /*
@@ -48,7 +48,7 @@ using System.Collections;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** Generates barcodes in several formats: EAN13, EAN8, UPCA, UPCE,
      * supplemental 2 and 5. The default parameters are:
      * <pre>

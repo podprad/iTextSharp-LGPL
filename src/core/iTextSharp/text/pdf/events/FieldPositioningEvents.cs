@@ -1,8 +1,8 @@
 using System;
 using System.IO;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
 
 /*
  * Copyright 2005 by Bruno Lowagie
@@ -50,7 +50,7 @@ using iTextSharp.text.pdf;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf.events {
+namespace iTextSharp4.text.pdf.events {
 
     /**
     * Class for an index.

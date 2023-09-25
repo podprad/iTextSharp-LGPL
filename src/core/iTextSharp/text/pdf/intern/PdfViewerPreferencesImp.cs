@@ -1,6 +1,6 @@
 using System;
-using iTextSharp.text.pdf;
-using iTextSharp.text.pdf.interfaces;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.pdf.interfaces;
 
 /*
  * $Id: PdfViewerPreferencesImp.cs,v 1.7 2008/05/04 10:49:46 psoares33 Exp $
@@ -51,7 +51,8 @@ using iTextSharp.text.pdf.interfaces;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.intern {
+namespace iTextSharp4.text.pdf.intern {
+    using iTextSharp4.text.pdf.interfaces;
 
     /**
     * Stores the information concerning viewer preferences,

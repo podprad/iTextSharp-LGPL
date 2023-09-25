@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
 
 /*
  * 
@@ -53,7 +53,7 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.draw {
+namespace iTextSharp4.text.pdf.draw {
 
     /**
     * Helper class implementing the DrawInterface. Can be used to add

@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
 /*
  * $Id: RtfGenerator.cs,v 1.3 2008/05/13 11:25:44 psoares33 Exp $
  * 
@@ -53,7 +53,7 @@ using iTextSharp.text.rtf;
  */
 
 
-namespace iTextSharp.text.rtf.document {
+namespace iTextSharp4.text.rtf.document {
     /**
     * The RtfGenerator creates the (\*\generator ...} element. 
     * 

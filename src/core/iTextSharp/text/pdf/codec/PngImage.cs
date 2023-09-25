@@ -4,8 +4,8 @@ using System.Net;
 using System.Text;
 using System.util.zlib;
 using System.util;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
 /*
  * Copyright 2003-2008 by Paulo Soares.
  *
@@ -95,7 +95,7 @@ using iTextSharp.text.pdf;
  * nuclear facility.
  */
 
-namespace iTextSharp.text.pdf.codec {
+namespace iTextSharp4.text.pdf.codec {
     /** Reads a PNG image. All types of PNG can be read.
     * <p>
     * It is based in part in the JAI codec.

@@ -50,11 +50,11 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
     /// <summary>
     /// The PageSize-object contains a number of read only rectangles representing the most common paper sizes.
     /// </summary>
-    /// <seealso cref="T:iTextSharp.text.RectangleReadOnly"/>
+    /// <seealso cref="T:iTextSharp4.text.RectangleReadOnly"/>
     public class PageSize {
     
         // membervariables

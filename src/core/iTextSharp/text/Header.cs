@@ -51,7 +51,7 @@ using System.Text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
     /// <summary>
     /// This is an Element that contains
     /// some userdefined meta information about the document.

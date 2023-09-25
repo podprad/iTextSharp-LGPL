@@ -46,7 +46,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /** Represents a pattern. Can be used in high-level constructs (Paragraph, Cell, etc.).
      */

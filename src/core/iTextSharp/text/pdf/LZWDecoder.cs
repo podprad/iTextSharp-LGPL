@@ -47,7 +47,7 @@ using System.Collections;
  * use in the design, construction, operation or maintenance of any 
  * nuclear facility.
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
      * A class for performing LZW decoding.
      *

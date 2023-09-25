@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using iTextSharp.text.rtf;
-using iTextSharp.text;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text;
 /**
  * $Id: RtfDirectContent.cs,v 1.6 2008/05/23 17:24:25 psoares33 Exp $
  * 
@@ -52,7 +52,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.direct {
+namespace iTextSharp4.text.rtf.direct {
 
     /**
     * The RtfDirectContent makes it possible to directly add RTF code into

@@ -47,7 +47,7 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
     * Creates a number tree.
     * @author Paulo Soares (psoares@consiste.pt)

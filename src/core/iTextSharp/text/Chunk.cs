@@ -3,10 +3,10 @@ using System.Text;
 using System.Collections;
 using System.util;
 
-using iTextSharp.text.pdf;
-using iTextSharp.text.html;
-using iTextSharp.text.factories;
-using iTextSharp.text.pdf.draw;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.html;
+using iTextSharp4.text.factories;
+using iTextSharp4.text.pdf.draw;
 
 /*
  * $Id: Chunk.cs,v 1.20 2008/05/13 11:25:09 psoares33 Exp $
@@ -58,7 +58,10 @@ using iTextSharp.text.pdf.draw;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.pdf;
+    using iTextSharp4.text.pdf.draw;
+
     /// <summary>
     /// This is the smallest significant part of text that can be added to a document.
     /// </summary>

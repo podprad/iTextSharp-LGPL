@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Collections;
 using System.Security.Cryptography;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * $Id: PdfSmartCopy.cs,v 1.7 2008/05/13 11:25:23 psoares33 Exp $
  * 
@@ -54,7 +54,7 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
     * PdfSmartCopy has the same functionality as PdfCopy,

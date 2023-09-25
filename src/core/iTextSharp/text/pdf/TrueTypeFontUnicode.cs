@@ -53,7 +53,7 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /** Represents a True Type font with Unicode encoding. All the character
      * in the font can be used directly by using the encoding Identity-H or

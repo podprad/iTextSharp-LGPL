@@ -50,7 +50,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.codec.wmf
+namespace iTextSharp4.text.pdf.codec.wmf
 {
     public class MetaObject
     {

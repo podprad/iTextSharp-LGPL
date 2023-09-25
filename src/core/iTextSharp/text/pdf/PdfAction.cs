@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text.pdf.collection;
+using iTextSharp4.text.pdf.collection;
 
 /*
  * $Id: PdfAction.cs,v 1.6 2008/05/13 11:25:18 psoares33 Exp $
@@ -52,7 +52,9 @@ using iTextSharp.text.pdf.collection;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.collection;
+
     /**
      * A <CODE>PdfAction</CODE> defines an action that can be triggered from a PDF file.
      *

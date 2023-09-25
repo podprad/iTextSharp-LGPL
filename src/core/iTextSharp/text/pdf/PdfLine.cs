@@ -2,7 +2,7 @@ using System;
 using System.Text;
 using System.Collections;
 
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: PdfLine.cs,v 1.7 2008/05/13 11:25:21 psoares33 Exp $
@@ -54,7 +54,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * <CODE>PdfLine</CODE> defines an array with <CODE>PdfChunk</CODE>-objects

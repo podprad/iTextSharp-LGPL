@@ -74,7 +74,7 @@ using System;
  * DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE THE DATA FILES OR SOFTWARE.
  * 
  * COPYRIGHT AND PERMISSION NOTICE
- * Copyright © 1991-2007 Unicode, Inc. All rights reserved. Distributed under
+ * Copyright Â© 1991-2007 Unicode, Inc. All rights reserved. Distributed under
  * the Terms of Use in http://www.unicode.org/copyright.html.
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -153,7 +153,7 @@ using System;
  * @author Doug Felt
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     public sealed class BidiOrder {
         private sbyte[] initialTypes;
         private sbyte[] embeddings; // generated from processing format codes

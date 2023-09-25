@@ -50,13 +50,13 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text 
+namespace iTextSharp4.text 
 {
     /// <summary>
     /// Signals an attempt to create an Element that hasn't got the right form.
     /// </summary>
-    /// <seealso cref="T:iTextSharp.text.Cell"/>
-    /// <seealso cref="T:iTextSharp.text.Table"/>
+    /// <seealso cref="T:iTextSharp4.text.Cell"/>
+    /// <seealso cref="T:iTextSharp4.text.Table"/>
     public class BadElementException : DocumentException 
     {
         public BadElementException() : base() {}

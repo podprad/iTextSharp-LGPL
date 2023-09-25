@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 using System.Net;
-using iTextSharp.text.pdf.collection;
+using iTextSharp4.text.pdf.collection;
 /*
  * Copyright 2003 Paulo Soares
  *
@@ -49,7 +49,9 @@ using iTextSharp.text.pdf.collection;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.collection;
+
     /** Specifies a file or an URL. The file can be extern or embedded.
     *
     * @author Paulo Soares (psoares@consiste.pt)

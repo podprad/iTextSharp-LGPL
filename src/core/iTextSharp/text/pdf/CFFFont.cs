@@ -38,7 +38,7 @@ using System.Collections;
  *
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     public class CFFFont {
         
         internal static String[] operatorNames = {

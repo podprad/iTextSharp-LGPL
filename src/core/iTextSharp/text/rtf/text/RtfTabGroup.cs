@@ -1,8 +1,8 @@
 using System;
 using System.IO;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.rtf;
+using iTextSharp4.text;
+using iTextSharp4.text.rtf;
 /*
  * $Id: RtfTabGroup.cs,v 1.5 2008/05/23 17:24:29 psoares33 Exp $
  * 
@@ -55,7 +55,7 @@ using iTextSharp.text.rtf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp4.text.rtf.text {
 
     /**
     * The RtfTabGroup is a convenience class if the same tabs are to be added

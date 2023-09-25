@@ -1,10 +1,10 @@
 using System;
 using System.IO;
 using System.Collections;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
-using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.rtf;
+using iTextSharp4.text.rtf.document;
 /*
  * $Id: RtfRow.cs,v 1.10 2008/05/16 19:31:19 psoares33 Exp $
  * 
@@ -55,7 +55,9 @@ using iTextSharp.text.rtf.document;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.table {
+namespace iTextSharp4.text.rtf.table {
+    using iTextSharp4.text.pdf;
+    using iTextSharp4.text.rtf.document;
 
     /**
     * The RtfRow wraps one Row for a RtfTable.

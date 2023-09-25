@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace iTextSharp.text.rtf.parser {
+namespace iTextSharp4.text.rtf.parser {
     public class PushbackStream : Stream {
         private int buf = -1;
         private readonly Stream s;

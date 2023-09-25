@@ -47,7 +47,7 @@ using System.IO;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.document.output {
+namespace iTextSharp4.text.rtf.document.output {
     /**
     * The RtfEfficientMemoryCache is an RtfDataCache that keeps the whole rtf document
     * data in memory.

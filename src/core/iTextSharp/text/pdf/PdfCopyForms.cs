@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.IO;
-using iTextSharp.text.pdf.interfaces;
+using iTextSharp4.text.pdf.interfaces;
 using Org.BouncyCastle.X509;
 /*
  * $Id: PdfCopyForms.java 3665 2009-01-26 22:32:15Z xlv $
@@ -52,7 +52,8 @@ using Org.BouncyCastle.X509;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
+    using iTextSharp4.text.pdf.interfaces;
 
     /**
     * Allows you to add one (or more) existing PDF document(s) to

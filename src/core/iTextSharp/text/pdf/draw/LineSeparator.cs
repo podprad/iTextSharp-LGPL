@@ -1,6 +1,6 @@
 using System;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
 /*
  * 
  * $Id: LineSeparator.cs,v 1.2 2008/05/13 11:25:38 psoares33 Exp $
@@ -51,7 +51,7 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.draw {
+namespace iTextSharp4.text.pdf.draw {
 
     /**
     * Element that draws a solid line from left to right.

@@ -51,7 +51,7 @@ using System.IO;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /**
     * Parses the page or template content.
     * @author Paulo Soares (psoares@consiste.pt)

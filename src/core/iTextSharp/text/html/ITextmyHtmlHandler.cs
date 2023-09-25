@@ -2,10 +2,10 @@ using System;
 using System.Collections;
 using System.Globalization;
 using System.util;
-using iTextSharp.text;
-using iTextSharp.text.xml;
-using iTextSharp.text.pdf;
-using iTextSharp.text.factories;
+using iTextSharp4.text;
+using iTextSharp4.text.xml;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.factories;
 
 /*
  * $Id: ITextmyHtmlHandler.cs,v 1.9 2008/05/13 11:25:15 psoares33 Exp $
@@ -57,7 +57,9 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html {
+namespace iTextSharp4.text.html {
+    using iTextSharp4.text.pdf;
+    using iTextSharp4.text.xml;
 
     /**
     * The <CODE>Tags</CODE>-class maps several XHTML-tags to iText-objects.

@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+using iTextSharp4.text;
+using iTextSharp4.text.pdf;
 using System.util.zlib;
 /*
  * Copyright 2003 by Paulo Soares.
@@ -50,7 +50,7 @@ using System.util.zlib;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.codec {
+namespace iTextSharp4.text.pdf.codec {
     /** Reads TIFF images
     * @author Paulo Soares (psoares@consiste.pt)
     */

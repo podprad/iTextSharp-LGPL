@@ -1,4 +1,4 @@
-namespace iTextSharp.text.rtf.parser.enumerations {
+namespace iTextSharp4.text.rtf.parser.enumerations {
 
     /**
     * Specifies the color theme values for use in Color Tables.

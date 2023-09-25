@@ -1,6 +1,6 @@
 using System;
 
-namespace iTextSharp.text.rtf {
+namespace iTextSharp4.text.rtf {
 	public interface IEventListener	{
 	}
 }

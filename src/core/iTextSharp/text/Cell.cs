@@ -2,9 +2,9 @@ using System;
 using System.Collections;
 using System.util;
 
-using iTextSharp.text.html;
-using iTextSharp.text.pdf;
-using iTextSharp.text.factories;
+using iTextSharp4.text.html;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.factories;
 
 /*
  * $Id: Cell.cs,v 1.17 2008/05/13 11:25:08 psoares33 Exp $
@@ -56,7 +56,9 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.pdf;
+
     /// <summary>
     /// A Cell is a Rectangle containing other Elements.
     /// </summary>
@@ -89,10 +91,10 @@ namespace iTextSharp.text {
     /// table.AddCell("2.2");
     /// </code>
     /// </example>
-    /// <seealso cref="T:iTextSharp.text.Rectangle"/>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.Table"/>
-    /// <seealso cref="T:iTextSharp.text.Row"/>
+    /// <seealso cref="T:iTextSharp4.text.Rectangle"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.Table"/>
+    /// <seealso cref="T:iTextSharp4.text.Row"/>
     public class Cell : Rectangle, ITextElementArray {
 
         // static membervariable

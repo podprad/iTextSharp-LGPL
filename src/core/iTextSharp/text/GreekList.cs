@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text.factories;
+using iTextSharp4.text.factories;
 /*
  * Copyright 2003 by Michael Niedermair.
  *
@@ -47,8 +47,10 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text
+namespace iTextSharp4.text
 {
+    using iTextSharp4.text.factories;
+
     /**
     * 
     * A special-version of <CODE>LIST</CODE> whitch use greek-letters.

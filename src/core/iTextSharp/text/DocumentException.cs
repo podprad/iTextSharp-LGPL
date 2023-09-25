@@ -51,14 +51,14 @@ using System;
  *
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
     /// <summary>
     /// Signals that an error has occurred in a Document.
     /// </summary>
-    /// <seealso cref="T:iTextSharp.text.BadElementException"/>
-    /// <seealso cref="T:iTextSharp.text.Document"/>
-    /// <seealso cref="T:iTextSharp.text.DocWriter"/>
-    /// <seealso cref="T:iTextSharp.text.IDocListener"/>
+    /// <seealso cref="T:iTextSharp4.text.BadElementException"/>
+    /// <seealso cref="T:iTextSharp4.text.Document"/>
+    /// <seealso cref="T:iTextSharp4.text.DocWriter"/>
+    /// <seealso cref="T:iTextSharp4.text.IDocListener"/>
     public class DocumentException : Exception {
         /// <summary>
         /// Constructs a new DocumentException

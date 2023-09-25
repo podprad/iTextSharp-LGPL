@@ -4,7 +4,7 @@ using System.IO;
 using System.Xml;
 using System.util;
 
-using iTextSharp.text;
+using iTextSharp4.text;
 
 /*
  * $Id: TagMap.cs,v 1.3 2008/05/13 11:26:12 psoares33 Exp $
@@ -56,7 +56,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml {
+namespace iTextSharp4.text.xml {
 
     /// <summary>
     /// The <CODE>TagMap</CODE>-class maps several XHTML-tags to iText-objects.

@@ -46,7 +46,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
     /** The transparency group dictionary.
     *
     * @author Paulo Soares (psoares@consiste.pt)

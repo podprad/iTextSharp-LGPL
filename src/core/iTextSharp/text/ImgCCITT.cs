@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text.pdf.codec;
+using iTextSharp4.text.pdf.codec;
 
 /*
  * $Id: ImgCCITT.cs,v 1.6 2008/05/13 11:25:11 psoares33 Exp $
@@ -51,7 +51,9 @@ using iTextSharp.text.pdf.codec;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.pdf.codec;
+
     /**
      * CCITT Image data that has to be inserted into the document
      *
@@ -63,8 +65,8 @@ namespace iTextSharp.text {
     /// <summary>
     /// CCITT Image data that has to be inserted into the document
     /// </summary>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.Image"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.Image"/>
     public class ImgCCITT : Image {
         public ImgCCITT(Image image) : base(image) {}
 

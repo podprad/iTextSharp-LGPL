@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-using iTextSharp.text;
+using iTextSharp4.text;
 
 using System.util.zlib;
 
@@ -55,7 +55,7 @@ using System.util.zlib;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * <CODE>PdfContents</CODE> is a <CODE>PdfStream</CODE> containing the contents (text + graphics) of a <CODE>PdfPage</CODE>.

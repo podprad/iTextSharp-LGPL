@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * $Id: EntitiesToSymbol.cs,v 1.3 2008/05/13 11:26:14 psoares33 Exp $
  * 
@@ -51,7 +51,7 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml.simpleparser {
+namespace iTextSharp4.text.xml.simpleparser {
 
     /**
     * This class contains entities that can be used in an entity tag.

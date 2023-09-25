@@ -7,9 +7,9 @@ using System.Collections;
 using System.util;
 using System.Reflection;
 
-using iTextSharp.text.pdf;
-using iTextSharp.text.factories;
-using iTextSharp.text.pdf.codec;
+using iTextSharp4.text.pdf;
+using iTextSharp4.text.factories;
+using iTextSharp4.text.pdf.codec;
 
 /*
  * $Id: Image.cs,v 1.28 2008/05/13 11:25:11 psoares33 Exp $
@@ -61,13 +61,16 @@ using iTextSharp.text.pdf.codec;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
+    using iTextSharp4.text.pdf;
+    using iTextSharp4.text.pdf.codec;
+
     /// <summary>
     /// An Image is the representation of a graphic element (JPEG, PNG or GIF)
     /// that has to be inserted into the document
     /// </summary>
-    /// <seealso cref="T:iTextSharp.text.Element"/>
-    /// <seealso cref="T:iTextSharp.text.Rectangle"/>
+    /// <seealso cref="T:iTextSharp4.text.Element"/>
+    /// <seealso cref="T:iTextSharp4.text.Rectangle"/>
     public abstract class Image : Rectangle {
     
         // static membervariables (concerning the presence of borders)

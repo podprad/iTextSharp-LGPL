@@ -50,14 +50,14 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp4.text {
     /// <summary>
     /// A class that implements DocListener will perform some
     /// actions when some actions are performed on a Document.
     /// </summary>
-    /// <seealso cref="T:iTextSharp.text.IElementListener"/>
-    /// <seealso cref="T:iTextSharp.text.Document"/>
-    /// <seealso cref="T:iTextSharp.text.DocWriter"/>
+    /// <seealso cref="T:iTextSharp4.text.IElementListener"/>
+    /// <seealso cref="T:iTextSharp4.text.Document"/>
+    /// <seealso cref="T:iTextSharp4.text.DocWriter"/>
     public interface IDocListener : IElementListener {
     
         // methods

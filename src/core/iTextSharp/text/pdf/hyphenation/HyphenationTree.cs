@@ -20,7 +20,7 @@ using System.Collections;
 
 /* $Id: HyphenationTree.cs,v 1.2 2005/06/18 08:05:23 psoares33 Exp $ */
  
-namespace iTextSharp.text.pdf.hyphenation {
+namespace iTextSharp4.text.pdf.hyphenation {
     /**
     * This tree structure stores the hyphenation patterns in an efficient
     * way for fast lookup. It provides the provides the method to

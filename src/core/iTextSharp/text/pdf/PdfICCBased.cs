@@ -1,6 +1,6 @@
 using System;
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
      * A <CODE>PdfICCBased</CODE> defines a ColorSpace

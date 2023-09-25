@@ -48,7 +48,7 @@ using Org.BouncyCastle.Crypto;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
     /**
     * A signature dictionary representation for the standard filters.

@@ -1,5 +1,5 @@
 using System;
-using iTextSharp.text;
+using iTextSharp4.text;
 /*
  * $Id: GreekAlphabetFactory.cs,v 1.2 2008/05/13 11:25:14 psoares33 Exp $
  * 
@@ -49,7 +49,7 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.factories {
+namespace iTextSharp4.text.factories {
 
     /**
     * This class can produce String combinations representing a number built with

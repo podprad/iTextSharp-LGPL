@@ -54,7 +54,7 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp4.text.pdf {
 
 /**
  * Creates a CJK font compatible with the fonts in the Adobe Asian font Pack.
