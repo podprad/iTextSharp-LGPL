@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<ProductVersion>7.10.3077</ProductVersion>
 		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
 		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 		<AssemblyName>itextsharp4</AssemblyName>
@@ -10,8 +9,17 @@
 		<DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
 		<DefaultTargetSchema>IE50</DefaultTargetSchema>
 		-->
-		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
 		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+		<AssemblyTitle>iTextSharp4</AssemblyTitle>
+		<AssemblyVersion>4.2.4</AssemblyVersion>
+		<ProductVersion>$(AssemblyVersion)</ProductVersion>
+		<PackageVersion>$(AssemblyVersion)</PackageVersion>
+		<FileVersion>$(AssemblyVersion)</FileVersion>
+		<InformationalVersion>$(AssemblyVersion)</InformationalVersion>
+		<Copyright>Copyright (C) 1999-2009 by Bruno Lowagie and Paulo Soares. All Rights Reserved.</Copyright>
+		<ProductName>$(AssemblyName)</ProductName>
+		<Description>A free PDF library ported from Java iText. Fork https://github.com/podprad/iTextSharp-LGPL</Description>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 		<AllowUnsafeBlocks>false</AllowUnsafeBlocks>
@@ -50,6 +58,7 @@
 		<WarningLevel>4</WarningLevel>
 		<DebugType>none</DebugType>
 		<ErrorReport>prompt</ErrorReport>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	</PropertyGroup>
 	<ItemGroup>
 		<Compile Include="AssemblyInfo.cs">

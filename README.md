@@ -10,6 +10,8 @@ Changes in this fork:
 
 4.2.3 - Renamed documentation file name
 
+4.2.4 - Building nuget package in Release configuration.
+
 Original README content:
 
 iTextSharp (LGPL / MPL) 4.1.6
