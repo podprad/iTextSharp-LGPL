@@ -12,7 +12,7 @@
 		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
 		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
 		<AssemblyTitle>iTextSharp4</AssemblyTitle>
-		<AssemblyVersion>4.2.4</AssemblyVersion>
+		<AssemblyVersion>4.2.5</AssemblyVersion>
 		<ProductVersion>$(AssemblyVersion)</ProductVersion>
 		<PackageVersion>$(AssemblyVersion)</PackageVersion>
 		<FileVersion>$(AssemblyVersion)</FileVersion>
@@ -20,6 +20,7 @@
 		<Copyright>Copyright (C) 1999-2009 by Bruno Lowagie and Paulo Soares. All Rights Reserved.</Copyright>
 		<ProductName>$(AssemblyName)</ProductName>
 		<Description>A free PDF library ported from Java iText. Fork https://github.com/podprad/iTextSharp-LGPL</Description>
+		<RootNamespace>iTextSharp4</RootNamespace>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 		<AllowUnsafeBlocks>false</AllowUnsafeBlocks>

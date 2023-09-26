@@ -12,6 +12,8 @@ Changes in this fork:
 
 4.2.4 - Building nuget package in Release configuration.
 
+4.2.5 - Fixed bug with loading fonts.
+
 Original README content:
 
 iTextSharp (LGPL / MPL) 4.1.6
