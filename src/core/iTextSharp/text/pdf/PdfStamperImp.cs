@@ -208,12 +208,6 @@ namespace iTextSharp4.text.pdf {
             if (producer == null) {
                 producer = Document.Version;
             }
-            else if (producer.IndexOf(Document.Product) == -1) {
-                StringBuilder buf = new StringBuilder(producer);
-                buf.Append("; modified using ");
-                buf.Append(Document.Version);
-                producer = buf.ToString();
-            }
             // XMP
             byte[] altMetadata = null;
             PdfObject xmpo = PdfReader.GetPdfObject(catalog.Get(PdfName.METADATA));
