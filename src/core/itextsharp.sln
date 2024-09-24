@@ -4,7 +4,7 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "itextsharp", "itextsharp.csproj", "{84C4FDD9-3ED7-453B-B9DA-B3ED52CB071C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "itextsharp.tests", "itextsharp.tests\itextsharp.tests.csproj", "{A634F97C-DED2-4C09-8E3A-03527E65E947}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "itextsharp.tests", "iTextSharp.Tests\itextsharp.tests.csproj", "{A634F97C-DED2-4C09-8E3A-03527E65E947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
